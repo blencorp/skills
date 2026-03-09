@@ -1,4 +1,4 @@
-# Public Sector Skills
+# BLEN's Public Sector Skills
 
 Agent skills for public sector development — USWDS, USMDS, and more.
 
@@ -76,3 +76,11 @@ npx skills add blencorp/skills --skill usmds
 ## License
 
 Apache 2.0 — see [LICENSE](LICENSE) for details.
+
+---
+
+Built with ❤️ by [BLEN, Inc](https://www.blencorp.com).
+
+## About BLEN
+
+BLEN, Inc is a digital services company that provides Emerging Technology (ML/AI, RPA), Digital Modernization (Legacy to Cloud), and Human-Centered Web/Mobile Design and Development.
