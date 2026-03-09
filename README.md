@@ -5,35 +5,67 @@ Agent skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), 
 ## Install
 
 ```bash
+# Install a specific skill
+npx skills add blencorp/skills --skill uswds
+npx skills add blencorp/skills --skill usmds
+
+# Install all skills
+npx skills add blencorp/skills
+```
+
+## Skills
+
+### USWDS — U.S. Web Design System
+
+A comprehensive skill for building accessible web interfaces with [USWDS v3](https://designsystem.digital.gov/) and [@trussworks/react-uswds](https://github.com/trussworks/react-uswds).
+
+```bash
 npx skills add blencorp/skills --skill uswds
 ```
 
-## What's Included
-
-### USWDS
-
-A comprehensive skill for building with the [U.S. Web Design System (USWDS v3)](https://designsystem.digital.gov/) and the [@trussworks/react-uswds](https://github.com/trussworks/react-uswds) React component library.
-
-Covers:
-
-- Components (headers, footers, forms, navigation, modals, tables, cards, and more)
-- Grid system and layout patterns
-- Design tokens (color, typography, spacing)
+**Covers:**
+- 47 components — headers, footers, forms, navigation, modals, tables, cards, and more
+- 12-column responsive grid system and layout patterns
+- Design tokens — color, typography, spacing
 - Sass theming and customization
 - Utility classes
-- Accessibility patterns for federal web interfaces
+- Section 508 / WCAG 2.1 AA accessibility patterns
 
-### Reference Files
-
-The skill includes detailed reference documentation:
+**Reference files included:**
 
 | File | Description |
 |------|-------------|
-| `components.md` | USWDS and @trussworks/react-uswds component usage |
-| `design-tokens.md` | Color, typography, and spacing token reference |
-| `grid-layout.md` | USWDS grid system and responsive layout patterns |
-| `sass-theming.md` | Theme customization via Sass variables |
-| `utilities.md` | USWDS utility class reference |
+| `components.md` | All USWDS and @trussworks/react-uswds components with imports and props |
+| `design-tokens.md` | Color, typography, and spacing token values |
+| `grid-layout.md` | Grid system, containers, breakpoints, and layout patterns |
+| `sass-theming.md` | Theme customization via Sass settings variables |
+| `utilities.md` | Complete utility class reference by category |
+
+---
+
+### USMDS — U.S. Mobile Design System
+
+A skill for building accessible React Native mobile applications with the [U.S. Mobile Design System](https://github.com/blencorp/react-native-usmds) (USMDS) by blencorp, using NativeWind for styling.
+
+```bash
+npx skills add blencorp/skills --skill usmds
+```
+
+**Covers:**
+- React Native components — Alert, Button, Card, Accordion, AlertDialog, Badge, Avatar, TextInput, Checkbox, RadioButton, Select, Textarea, and more
+- NativeWind (Tailwind CSS for React Native) styling patterns
+- HSL-based theme token system with light/dark mode support
+- Project setup — Metro, Babel, and Tailwind configuration
+- WAI-ARIA accessibility patterns for mobile
+- PortalHost setup for overlay components
+
+**Reference files included:**
+
+| File | Description |
+|------|-------------|
+| `components.md` | All USMDS components with imports, props, and usage examples |
+| `setup.md` | Project initialization, Metro/Babel/Tailwind configuration |
+| `theming.md` | Design tokens, color system, dark mode, and custom themes |
 
 ## About skills.sh
 
