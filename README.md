@@ -1,6 +1,8 @@
-# blencorp/skills
+# Public Sector Skills
 
-Agent skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), built for [skills.sh](https://skills.sh).
+Agent skills for public sector development — USWDS, USMDS, and more.
+
+Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and distributed via [skills.sh](https://skills.sh).
 
 ## Install
 
