@@ -10,6 +10,7 @@ Agent skills for public sector development — USWDS, USMDS, and more.
 # Install a specific skill
 npx skills add blencorp/skills --skill uswds
 npx skills add blencorp/skills --skill usmds
+npx skills add blencorp/skills --skill gsa-mas
 
 # Install all skills
 npx skills add blencorp/skills
@@ -68,6 +69,28 @@ npx skills add blencorp/skills --skill usmds
 | `components.md` | All USMDS components with imports, props, and usage examples |
 | `setup.md` | Project initialization, Metro/Babel/Tailwind configuration |
 | `theming.md` | Design tokens, color system, dark mode, and custom themes |
+
+---
+
+### GSA MAS — Multiple Award Schedule Application Assistant
+
+A skill that guides first-time applicants through a complete [GSA Multiple Award Schedule](https://www.gsa.gov/buy-through-us/purchasing-programs/multiple-award-schedule) (MAS) application, focused on SIN 54151S (IT Professional Services) — from eligibility check to eOffer submission and post-award obligations.
+
+```bash
+npx skills add blencorp/skills --skill gsa-mas
+```
+
+**Covers:**
+- Eligibility check and readiness assessment (2-year history, financials, past performance, NAICS alignment)
+- Registrations and prerequisites — SAM.gov/UEI, FAS ID with MFA, Pathways to Success training
+- Technical proposal drafting across all four evaluation factors, with 10,000-character limit tracking
+- Past performance — CPARS, Past Performance Questionnaires (PPQs), and permitted alternative formats
+- Pricing under the current TDR regime — interactive labor category collection, EPA clause selection, commercial price list
+- Final assembly checklist, cross-document consistency checks, and eOffer submission guidance
+- Post-award obligations — minimum sales thresholds, monthly TDR reporting, IFF, compliance requirements
+- Tracks solicitation Refresh changes (Refresh 30–32) and re-verifies current requirements via web search
+
+**Evals included:** 38 evaluation cases covering every phase, plus behavioral checks (phase skipping, pushing back on weak inputs, catching pricing errors, correcting outdated requirements).
 
 ## About skills.sh
 
