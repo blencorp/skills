@@ -1,15 +1,15 @@
 ---
 name: gsa-mas
 description: >
-  Guide users through a complete GSA Multiple Award Schedule (MAS) application,
+  Guides users through a complete GSA Multiple Award Schedule (MAS) application,
   focused on SIN 54151S (IT Professional Services). Walks first-time applicants
   through every phase — eligibility, registration, technical proposal drafting,
   pricing, and eOffer submission — producing staged deliverables at each step.
-  Use this skill whenever someone mentions GSA Schedule, GSA MAS, GSA contract,
-  selling to the government through GSA, SIN 54151S, eOffer, or asks about
-  getting on the GSA Schedule. Also trigger when someone uploads documents
-  related to a GSA application (financial statements, past performance docs,
-  pricing sheets) and wants help assembling their offer package.
+  Use when someone mentions GSA Schedule, GSA MAS, GSA contract, selling to
+  the government through GSA, SIN 54151S, eOffer, or asks about getting on
+  the GSA Schedule. Also use when someone uploads documents related to a GSA
+  application (financial statements, past performance docs, pricing sheets)
+  and wants help assembling their offer package.
 ---
 
 # GSA MAS Application Assistant — SIN 54151S (IT Professional Services)
@@ -18,7 +18,7 @@ You are guiding a first-time applicant through a GSA Multiple Award Schedule app
 
 ## Step Zero: Research Current Requirements
 
-Before doing anything else in every session, run a web search for the latest GSA MAS solicitation updates, template changes, and SIN status. The solicitation (47QSMD20R0001) gets periodic "Refreshes" that change requirements, close SINs, update templates, and modify terms. Requirements that were accurate six months ago may be wrong today. As of this writing, the most recent refreshes are Refresh 31 (Mass Mod A914, issued April 2, 2026 — 90-day acceptance window) and Refresh 32 (issued June 4, 2026 — 30-day acceptance window). A new refresh may have been issued since this skill was last updated.
+Before doing anything else in every session, run a web search for the latest GSA MAS solicitation updates, template changes, and SIN status. The solicitation (47QSMD20R0001) gets periodic "Refreshes" that change requirements, close SINs, update templates, and modify terms. Requirements that were accurate six months ago may be wrong today. As of this writing, the most recent refreshes are Refresh 31 (issued April 2026 — 60-day mass mod acceptance window) and Refresh 32 (Mass Mod A917, issued June 5, 2026 — 30-day acceptance window). A new refresh may have been issued since this skill was last updated.
 
 Search for:
 - "GSA MAS solicitation 47QSMD20R0001 refresh" + current year — to catch any recent Refresh changes
@@ -182,7 +182,7 @@ Pricing is the #1 reason for GSA application rejections. The goal is to offer fa
 
 ### Important: Refresh 31/32 Pricing Changes (2026)
 
-Refresh 31 (April 2, 2026) made major changes to how GSA evaluates pricing. Refresh 32 (June 4, 2026) continued the transition. Before starting this phase, confirm which pricing regime applies:
+Refresh 31 (April 2026) made major changes to how GSA evaluates pricing. Refresh 32 (June 5, 2026) continued the transition. Before starting this phase, confirm which pricing regime applies:
 
 **Post-Refresh 31 (current as of April 2026):**
 - CSP-1 (Commercial Sales Practices) disclosures are **no longer required**. All CSP-1 references have been removed from the solicitation.
@@ -191,8 +191,11 @@ Refresh 31 (April 2, 2026) made major changes to how GSA evaluates pricing. Refr
 - All new offers **must be submitted as TDR (Transactional Data Reporting) offers**. Non-TDR proposals will be rejected.
 - If the user started their application before Refresh 31 and has a pending non-TDR offer, advise them to withdraw it and resubmit under TDR requirements. GSA will make every effort to reinstate resubmitted offers in the review queue based on their original position.
 
-**Pre-Refresh 31 (legacy — only if the user's offer was submitted and accepted before February 2026):**
-- CSP-1 and MFC requirements applied. If the user is in this situation, note that they will still need to accept the Refresh 31 Mass Modification within 90 days of issuance, which transitions them to TDR.
+<details>
+<summary>Old patterns — pre-Refresh 31 offers (legacy)</summary>
+
+Offers submitted and accepted before Refresh 31 (April 2026) were subject to CSP-1 and MFC disclosure requirements. Contractors in this situation still need to accept the Refresh 31 Mass Modification within the stated acceptance window (60 days of issuance), which transitions them to TDR.
+</details>
 
 The guidance below assumes a post-Refresh 31 offer, which is the current requirement.
 
@@ -309,7 +312,7 @@ Before the user goes to eOffer, walk through every required document. For each o
 - [ ] Agent Authorization Letter (only if using a third-party consultant to submit)
 - [ ] SAM.gov registration (must be active and not expiring within 60 days of submission)
 - [ ] Pathways to Success training completion (must be within the last 12 months)
-- [ ] Digital certificate installed and tested in the browser that will access eOffer
+- [ ] FAS ID with MFA set up and verified (log into eOffer before submission day — digital certificates from IdenTrust/ORC are no longer used)
 - [ ] Large Category Attachment for IT Professional Services (this is a SIN-specific document from the solicitation that the user must review, acknowledge, and comply with — many first-timers miss it)
 
 **Technical Documents:**
@@ -327,7 +330,7 @@ Before the user goes to eOffer, walk through every required document. For each o
 - [ ] Price Proposal Template (completed Excel file, correct version from GSA's website) — must be submitted as a TDR offer
 - [ ] Commercial price list or rate card (must match Price Proposal Template rates)
 - [ ] Supporting wage/salary data if requested (BLS data, salary surveys, etc.)
-- [ ] Note: CSP-1 is NO LONGER required as of Refresh 31 (February 2026). If the user has already prepared one, it won't hurt but is not needed.
+- [ ] Note: CSP-1 is NO LONGER required as of Refresh 31 (April 2026). If the user has already prepared one, it won't hurt but is not needed.
 
 **Category-Specific (IT Professional Services):**
 - [ ] Labor category descriptions document (all LCATs with titles, descriptions, and minimum qualifications)
@@ -377,7 +380,7 @@ Before the user submits, make sure they understand what happens after award. Man
 - Requires **monthly** line-item reporting of all sales made through the Schedule. Each report must include: buyer agency, contract number, dollar amount, SIN, and line-item details (part numbers, unit prices)
 - Reports are due within **30 calendar days** after the end of the reporting month
 - Even months with zero sales must be reported (zero-dollar report)
-- TDR becomes effective at the beginning of the next sales reporting quarter after the TDR Modification is accepted. For example: modification signed in February 2026 → TDR effective April 1, 2026
+- TDR becomes effective at the beginning of the next sales reporting quarter after the TDR Modification is accepted. For example: a modification accepted in May → TDR effective July 1 (the start of the next quarter)
 
 ### Industrial Funding Fee (IFF)
 - 0.75% of all Schedule sales, remitted quarterly to GSA
@@ -408,7 +411,7 @@ Communicate these obligations clearly. The user should make a conscious decision
 
 Always remind the user:
 - This skill provides guidance based on publicly available GSA documentation and common practices. It is not legal or contractual advice.
-- The GSA MAS solicitation (47QSMD20R0001) is periodically refreshed. The user should always verify current requirements against the live solicitation on SAM.gov. As of this writing, the most recent refreshes are Refresh 31 (April 2, 2026) and Refresh 32 (June 4, 2026).
+- The GSA MAS solicitation (47QSMD20R0001) is periodically refreshed. The user should always verify current requirements against the live solicitation on SAM.gov. As of this writing, the most recent refreshes are Refresh 31 (April 2026) and Refresh 32 (June 5, 2026).
 - Small Business Set-Aside (SBSA) SINs under the Professional Services Large Category are closed to new MAS contract-level awards/modifications as of 1/19/2025. Verify SIN availability before starting.
 - All new offers must be submitted as TDR offers post-Refresh 31. Pending non-TDR offers should be withdrawn and resubmitted.
 - Experience substitution (affiliates, predecessors, key personnel) is limited to Startup Springboard participants only as of Refresh 32. Traditional offerors must use their own direct experience.
@@ -425,7 +428,7 @@ Every time you use one of these terms for the first time in a session, include a
 
 - **SIN** → "SIN (Special Item Number — basically a category code that tells GSA what type of product or service you're offering)"
 - **eOffer** → "eOffer (GSA's online portal where you submit your application)"
-- **CSP-1** → "CSP-1 (Commercial Sales Practices — a pricing disclosure document that was required before Refresh 31 in February 2026 but is no longer needed for new offers)"
+- **CSP-1** → "CSP-1 (Commercial Sales Practices — a pricing disclosure document that was required before Refresh 31 in April 2026 but is no longer needed for new offers)"
 - **MFC** → "MFC (Most Favored Customer — the commercial customer who gets your best pricing; formal MFC disclosure was eliminated in Refresh 31, but the concept still matters for pricing reasonableness)"
 - **UEI** → "UEI (Unique Entity Identifier — your company's ID number in the federal system, replaces the old DUNS number)"
 - **IFF** → "IFF (Industrial Funding Fee — the 0.75% fee GSA charges on all Schedule sales)"

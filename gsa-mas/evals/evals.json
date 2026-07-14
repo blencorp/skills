@@ -1,5 +1,5 @@
 {
-  "skill_name": "gsa-mas-application",
+  "skill_name": "gsa-mas",
   "grading_instructions": "Each eval has 'must_contain' (keywords/phrases the response MUST include) and 'must_not_contain' (keywords/phrases that indicate an error). A response passes if ALL must_contain items are present and NONE of the must_not_contain items are present. Grading is case-insensitive. Use substring matching.",
   "evals": [
     {
@@ -254,14 +254,14 @@
       "name": "final-assembly-completeness",
       "category": "Phase 5",
       "prompt": "I think I have everything for my GSA MAS application under SIN 54151S. Can you help me do a final check before I submit in eOffer? I have: corporate experience narrative, 3 PPQs back from clients, quality control plan, one project experience write-up, price proposal template with 5 labor categories, and my commercial rate card. My SAM is active and I did Pathways to Success last month.",
-      "must_contain": ["financial statement", "SF 1449", "Large Category Attachment", "digital certificate", "labor category description", "TDR"],
+      "must_contain": ["financial statement", "SF 1449", "Large Category Attachment", "FAS ID", "labor category description", "TDR"],
       "must_not_contain": ["CSP-1 — completed"],
       "assertions": [
         "Goes through complete checklist interactively",
         "Catches missing financial statements",
         "Catches missing SF 1449",
         "Catches missing Large Category Attachment",
-        "Catches missing digital certificate verification",
+        "Catches missing FAS ID/MFA access verification",
         "Catches missing labor category descriptions document",
         "Notes TDR offer requirement",
         "Does NOT list CSP-1 as a required missing document",
