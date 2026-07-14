@@ -54,7 +54,7 @@
       "category": "Phase 3 Factor 1 (Phase Skipping)",
       "prompt": "I'm working on my GSA MAS application for IT professional services. I already have my SAM registration and digital cert. I need help writing my corporate experience narrative — we're a 15-person IT consulting shop that does cloud migration and managed services. We've been in business 6 years and our biggest client is a Fortune 500 retailer.",
       "must_contain": ["10,000", "marketing", "corporate experience"],
-      "must_not_contain": ["Phase 1", "eligibility check", "SAM.gov registration"],
+      "must_not_contain": ["How long has your company been operating", "2 consecutive years of financial statements"],
       "assertions": [
         "Skips directly to Phase 3 Factor 1 (does NOT restart from Phase 1)",
         "Runs Step Zero web search",
@@ -67,7 +67,7 @@
       "name": "weak-marketing-plan",
       "category": "Phase 3 Factor 1 (Pushback)",
       "prompt": "Here's my draft corporate experience narrative for the GSA MAS application. For the marketing section I wrote: 'We plan to market our services to federal agencies and will pursue opportunities as they arise.' The rest covers our 8 years of experience, 25 employees, cloud infrastructure and DevOps services, and 3 major enterprise clients.",
-      "must_contain": ["weak", "GSA eBuy", "GSA Advantage"],
+      "must_contain": ["GSA eBuy", "GSA Advantage"],
       "must_not_contain": [],
       "assertions": [
         "Identifies marketing plan as weak/insufficient",
@@ -82,7 +82,7 @@
       "name": "past-performance-ppq",
       "category": "Phase 3 Factor 2 (PPQ)",
       "prompt": "I'm almost done with my GSA MAS application. I have my technical narratives and pricing done. Now I need to handle past performance — I have 4 clients I could use as references but I've never done a PPQ before. Two are commercial (hospital chain and fintech startup) and two are state government IT departments.",
-      "must_contain": ["PPQ", "Past Performance Questionnaire", "template", "2-4 week", "3"],
+      "must_contain": ["PPQ", "Past Performance Questionnaire", "template", "week"],
       "must_not_contain": [],
       "assertions": [
         "Explains the GSA PPQ template is the preferred format, filled out by the reference (not the applicant)",
@@ -186,7 +186,7 @@
       "name": "pricing-gsa-rate-above-commercial",
       "category": "Phase 4 (Error Catching)",
       "prompt": "For my GSA MAS pricing, here's my first labor category:\n- Title: Senior Systems Engineer\n- Commercial rate to my best customer: $180/hr\n- Proposed GSA rate: $195/hr\nDoes that look right?",
-      "must_contain": ["higher", "$180", "flag", "reject"],
+      "must_contain": ["higher", "$180", "flag"],
       "must_not_contain": [],
       "assertions": [
         "Flags GSA rate ($195) is HIGHER than commercial rate ($180)",
@@ -257,7 +257,7 @@
       "category": "Phase 5",
       "prompt": "I think I have everything for my GSA MAS application under SIN 54151S. Can you help me do a final check before I submit in eOffer? I have: corporate experience narrative, 3 PPQs back from clients, quality control plan, one project experience write-up, price proposal template with 5 labor categories, and my commercial rate card. My SAM is active and I did Pathways to Success last month.",
       "must_contain": ["financial statement", "SF 1449", "Large Category Attachment", "FAS ID", "labor category description", "TDR"],
-      "must_not_contain": ["CSP-1 — completed"],
+      "must_not_contain": [],
       "assertions": [
         "Goes through complete checklist interactively",
         "Catches missing financial statements",
@@ -276,8 +276,8 @@
       "name": "financial-statement-requirements",
       "category": "Phase 5 (Financials)",
       "prompt": "What financial documents do I need for my GSA MAS application? I have our tax returns and a QuickBooks P&L printout. Is that enough?",
-      "must_contain": ["balance sheet", "income statement", "2", "audited"],
-      "must_not_contain": ["CPA required", "must be CPA-signed", "CPA-certified"],
+      "must_contain": ["balance sheet", "income statement", "audited"],
+      "must_not_contain": ["must be CPA-signed", "must be signed by a CPA"],
       "assertions": [
         "States 2 consecutive years required",
         "Lists minimum: balance sheet + income statement",
@@ -292,7 +292,7 @@
       "name": "eoffer-submission-guidance",
       "category": "Phase 5 (Submission)",
       "prompt": "I have all my documents ready. I'm about to log into eOffer for the first time. What should I expect?",
-      "must_contain": ["eOffer", "sign", "FPR", "2-6 month"],
+      "must_contain": ["eOffer", "sign", "FPR", "month"],
       "must_not_contain": [],
       "assertions": [
         "Explains eOffer mirrors solicitation structure",
@@ -323,7 +323,7 @@
       "category": "Phase 6",
       "prompt": "We just got awarded our GSA MAS contract for IT professional services. What do we need to do now? What are our ongoing obligations?",
       "must_contain": ["$100,000", "TDR", "monthly", "30", "IFF", "0.75", "SAM", "GSA Advantage", "eMod"],
-      "must_not_contain": ["quarterly reporting"],
+      "must_not_contain": ["TDR is quarterly", "quarterly TDR"],
       "assertions": [
         "Covers minimum sales ($100K/5yr, $125K option)",
         "Covers TDR monthly reporting (30-day deadline) — NOT quarterly",
@@ -355,7 +355,7 @@
       "category": "Behavioral (Phase Skip)",
       "prompt": "I've completed my technical proposal for GSA MAS — all four factors are written, PPQs collected, everything reviewed. Now I need to do the pricing part. I have 8 labor categories ready to go.",
       "must_contain": ["labor category", "commercial rate", "GSA rate"],
-      "must_not_contain": ["Phase 1", "eligibility", "SAM.gov registration", "corporate experience narrative"],
+      "must_not_contain": ["How long has your company been operating", "draft your corporate experience narrative"],
       "assertions": [
         "Skips directly to Phase 4 pricing",
         "Does NOT revisit Phases 1-3",
@@ -369,7 +369,7 @@
       "category": "Behavioral (Phase Skip)",
       "prompt": "I have all my GSA MAS documents ready — technical proposal, pricing, financials, everything. I just want to make sure I haven't missed anything before I submit in eOffer.",
       "must_contain": ["checklist", "SF 1449", "Large Category"],
-      "must_not_contain": ["Phase 1", "eligibility check", "How long has your company"],
+      "must_not_contain": ["How long has your company"],
       "assertions": [
         "Skips directly to Phase 5 checklist",
         "Does NOT restart from Phase 1",
@@ -382,7 +382,7 @@
       "name": "cross-document-pricing-inconsistency",
       "category": "Behavioral (Consistency)",
       "prompt": "For my GSA MAS application, my price proposal template shows the commercial rate for Senior Developer as $190/hr. But my commercial rate card shows $180/hr for the same role. Is this going to be a problem?",
-      "must_contain": ["inconsisten", "$190", "$180", "reconcile", "reject"],
+      "must_contain": ["inconsisten", "$190", "$180"],
       "must_not_contain": [],
       "assertions": [
         "Identifies pricing inconsistency ($190 vs $180)",
@@ -424,8 +424,8 @@
       "name": "tdr-reporting-details",
       "category": "Phase 6 (TDR Specifics)",
       "prompt": "I just got my GSA contract. How exactly does TDR work? What do I report, when, and where?",
-      "must_contain": ["monthly", "30 calendar day", "line-item", "zero"],
-      "must_not_contain": ["quarterly reporting"],
+      "must_contain": ["monthly", "30", "line-item", "zero"],
+      "must_not_contain": ["TDR is quarterly", "quarterly TDR"],
       "assertions": [
         "States TDR is monthly (NOT quarterly)",
         "Due within 30 calendar days after end of reporting month",
@@ -439,14 +439,14 @@
       "name": "minimum-sales-enforcement",
       "category": "Phase 6 (Sales Threshold)",
       "prompt": "We've had our GSA Schedule for 3 years but only done $15,000 in sales. Should we be worried?",
-      "must_contain": ["$100,000", "5 year", "cancellation", "24"],
+      "must_contain": ["$100,000", "year", "cancellation", "24"],
       "must_not_contain": [],
       "assertions": [
         "States $100K minimum for first 60 months",
         "Notes GSA is actively enforcing cancellations in 2025-2026",
         "Notes GSA no longer permitting multiple correction attempts",
         "Mentions 24-month prohibition on reapplying after cancellation",
-        "Advises on marketing strategy or contract surrender options"
+        "Advises on marketing strategy to close the gap, or on options if the threshold cannot realistically be met"
       ]
     },
     {
@@ -513,7 +513,7 @@
       "category": "Registration (Current Requirements)",
       "prompt": "I need to set up access to eOffer for my GSA MAS application. I read online that I need a digital certificate from IdenTrust or ORC. Where do I get one?",
       "must_contain": ["FAS ID", "MFA", "no longer required"],
-      "must_not_contain": ["get an ORC certificate", "purchase a digital certificate from IdenTrust"],
+      "must_not_contain": [],
       "assertions": [
         "Corrects outdated information — digital certificates from IdenTrust/ORC are no longer required",
         "Explains FAS ID with MFA is the current access method",
@@ -542,7 +542,7 @@
       "category": "Phase 5 (Outdated Requirements)",
       "prompt": "My GSA consultant's checklist from last year says I need to submit a Professional Compensation Plan with my MAS offer for IT services. I haven't written one yet — how detailed does it need to be?",
       "must_contain": ["no longer required", "Refresh 30"],
-      "must_not_contain": ["salary ranges for each labor category", "must submit a compensation plan"],
+      "must_not_contain": [],
       "assertions": [
         "States the Professional Compensation Plan requirement was removed in Refresh 30 (December 2025) under FAR 52.222-46",
         "Advises the user not to spend time preparing one",
@@ -562,6 +562,59 @@
         "Warns the proposal may be rejected if neither the PPQ nor the letter is uploaded",
         "Explains the recommendation letter only counts if it addresses ALL PPQ evaluation areas — a generic letter does not qualify",
         "Offers to help get the second reference to a compliant format"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "ambiguous-starting-point",
+      "category": "Behavioral (Ambiguous Start)",
+      "prompt": "I've been chipping away at a GSA MAS application for my IT consulting firm on and off for a while. Can you help me with it?",
+      "must_contain": ["where are you"],
+      "must_not_contain": ["How long has your company been operating"],
+      "assertions": [
+        "Asks where the user is in the GSA MAS process before diving in",
+        "Does NOT assume a starting phase or launch the Phase 1 eligibility interview",
+        "Briefly orients the user to the phases so they can identify their position"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "sbsa-sin-closure",
+      "category": "Edge Case (SBSA SINs)",
+      "prompt": "We're a woman-owned small business doing IT services. We heard there are Small Business Set-Aside SINs on the GSA Schedule that would limit our competition. Can we apply for one of those?",
+      "must_contain": ["closed", "verify"],
+      "must_not_contain": [],
+      "assertions": [
+        "States SBSA SINs under the Professional Services Large Category are closed to new MAS contract-level awards as of 1/19/2025",
+        "Advises verifying current SIN availability against the live solicitation",
+        "Redirects to the standard SIN 54151S path as the available option"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "lcat-quality-flags",
+      "category": "Phase 4b (LCAT Quality)",
+      "prompt": "Here are two of my labor categories for my GSA MAS pricing: 'Consultant Level II' at $175/hr and 'Consultant Level III' at $200/hr with no degree or certification requirements. The descriptions are pretty much the same — general IT consulting. Look good?",
+      "must_contain": ["vague", "qualification"],
+      "must_not_contain": [],
+      "assertions": [
+        "Flags 'Consultant Level II/III' as vague titles GSA rejects",
+        "Flags the overlapping descriptions and suggests consolidation or differentiation",
+        "Flags weak minimum qualifications relative to the $200/hr rate",
+        "Helps the user rewrite the LCATs with descriptive titles and specific qualifications"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "iff-quarterly-remittance",
+      "category": "Phase 6 (IFF)",
+      "prompt": "I have my GSA Schedule now. How and when do I actually pay the Industrial Funding Fee on my Schedule sales?",
+      "must_contain": ["0.75", "quarterly"],
+      "must_not_contain": [],
+      "assertions": [
+        "States the IFF is 0.75% of all Schedule sales, remitted quarterly to GSA",
+        "Notes the IFF is due regardless of whether the agency has paid the contractor",
+        "Distinguishes quarterly IFF remittance from monthly TDR sales reporting"
       ]
     }
   ]

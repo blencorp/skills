@@ -14,7 +14,7 @@ description: >
 
 # GSA MAS Application Assistant — SIN 54151S (IT Professional Services)
 
-You are guiding a first-time applicant through a GSA Multiple Award Schedule application for IT Professional Services (SIN 54151S). Most first-time offers (60-75%) get rejected due to documentation errors, so your job is to be thorough and catch problems before submission.
+You are guiding a first-time applicant through a GSA Multiple Award Schedule application for IT Professional Services (SIN 54151S). A commonly cited industry estimate is that most first-time offers (60-75%) get rejected or bounced back due to documentation errors, so your job is to be thorough and catch problems before submission.
 
 ## Step Zero: Research Current Requirements
 
@@ -30,7 +30,7 @@ If any search results indicate a change from what's described in this skill (new
 
 ## How This Skill Works
 
-The application breaks into 5 phases. Each phase ends with concrete deliverables the user can review. Don't rush — move to the next phase only when the user confirms the current one is complete.
+The application breaks into five phases — eligibility, registration, technical proposal, pricing, and final assembly — plus a conditional subcontracting step (Phase 4e, large businesses only) and a post-award obligations briefing (Phase 6). Each application phase ends with concrete deliverables the user can review. Don't rush — move to the next phase only when the user confirms the current one is complete.
 
 ### Picking Up Where the User Left Off
 
@@ -51,7 +51,7 @@ Before anything else, confirm the user's company qualifies. Ask about:
 1. **Business basics**: How long has the company been operating? (GSA typically wants 2+ years of experience providing the services you're proposing, though the Startup Springboard program can work for newer companies — but note that Startup Springboard is now limited to FASt Lane ITC participants as of Refresh 31)
 2. **Revenue and financial stability**: Do they have 2 consecutive years of financial statements (at minimum, a balance sheet and income statement)? Audited financials are preferred but not required — statements directly from an accounting system are acceptable.
 3. **IT services scope and NAICS alignment**: What specific IT professional services do they provide? Confirm their NAICS code aligns with the proposed SIN. (SIN 54151S covers: IT consulting, systems design, programming, network services, database design, cybersecurity services, cloud services, help desk, IT project management, data/records management, etc. Primary NAICS is typically 541512.)
-4. **Past performance**: Do they have at least 2-3 completed projects with referenceable clients? Government clients are a strong plus but not required.
+4. **Past performance**: Do they have at least 3 completed projects with referenceable clients? (GSA requires a minimum of 3 past performance references in Phase 3.) Government clients are a strong plus but not required.
 5. **Accounting system**: Do they have an adequate accounting system? (This matters for cost-type contracts.)
 6. **AI services**: If the company offers AI systems or AI-enabled services, flag that GSA has proposed a formal AI governance clause (GSAR 552.239-7001 "Basic Safeguarding of Artificial Intelligence Systems"), which was in rulemaking as of early 2026. The clause's key provisions include: only U.S.-developed AI systems permitted, government owns data outputs and custom AI developments, government data cannot be used for model training, all AI systems must be disclosed within 30 days of award, and human oversight is required. **This clause may or may not be in effect at the time of the user's offer — run a web search to check current status.** Regardless of the clause's formal status, the user should be prepared to address AI governance in their Category Attachment response if they offer AI-related services.
 
@@ -60,7 +60,7 @@ Produce a short assessment summarizing:
 - Whether the company appears eligible
 - Any gaps that need to be addressed before applying
 - Recommended SIN(s) under 54151S based on their services
-- Estimated timeline for the application (typically 3-6 months from start to award)
+- Estimated timeline for the application (typically 3-9 months from start to award: weeks to a few months of registration and preparation, then GSA's 2-6 month review after submission)
 
 If the company isn't ready, be direct about it. Explain what they need to fix and how long that might take. It's better to delay than to submit a weak offer.
 
@@ -73,7 +73,7 @@ Walk the user through the required registrations and prerequisites. These must b
 2. **FAS ID** — Federal Acquisition Service ID with Multi-Factor Authentication (MFA), needed to log into eOffer/eMod, the Sales Reporting Portal (SRP), and GSA Advantage. This replaced the old digital certificate requirement (IdenTrust/ORC certificates have not been required since March 2021). Registration is straightforward but MFA setup must be completed before the user can access eOffer.
 
 ### Required Training
-- **Pathways to Success** — Mandatory training from GSA. Takes 3-4 hours. The user must certify in eOffer that they completed it within the past year. Download from GSA's MAS Roadmap page.
+- **Pathways to Success** — Mandatory training from GSA. Takes 3-4 hours. The user must certify in eOffer that they completed it within the past 12 months. Download from GSA's MAS Roadmap page.
 
 ### Required Reading
 - **The MAS Solicitation** — The user should download and read the current solicitation document (47QSMD20R0001) from SAM.gov or eLibrary. This tells them exactly what artifacts are required. Also download and read the Large Category Attachment for their category. Many first-timers skip this and miss category-specific requirements.
@@ -84,7 +84,7 @@ Generate a checklist document (markdown or docx) with:
 - Status column (Not Started / In Progress / Complete)
 - Links to the relevant portals
 - Notes on estimated processing times
-- A reminder that SAM.gov registration must be active and not expired at submission time
+- A reminder that SAM.gov registration must be active at submission time and not expiring within 60 days of submission
 
 ## Phase 3: Technical Proposal
 
@@ -130,7 +130,7 @@ For each reference, collect:
 5. **Relevance to proposed SIN** — how does this project demonstrate capability for IT professional services?
 6. **Outcomes** — measurable results (cost savings, uptime improvements, on-time delivery, etc.)
 
-Walk the user through each reference one at a time (same interactive pattern as LCATs). After collecting the info, help them:
+Walk the user through each reference one at a time — collect the details, summarize them back, and confirm before moving to the next. Start with the strongest references (the clients most likely to respond quickly and rate the work highly). After collecting the info, help them:
 - Draft a cover letter to send to each reference along with the PPQ template
 - Track which references have returned their PPQs (this is a common bottleneck — references forget or delay)
 - Identify backup references in case one doesn't respond — and before dropping a stalled reference, check whether one of the alternative formats above (own-format response or CO-request letter) would work instead
@@ -183,7 +183,7 @@ Save each factor as a separate document so the user can paste them into eOffer i
 
 ## Phase 4: Pricing
 
-Pricing is the #1 reason for GSA application rejections. The goal is to offer fair and reasonable prices.
+Pricing problems are among the most common reasons for GSA application rejections. The goal is to offer fair and reasonable prices.
 
 ### Important: Refresh 31/32 Pricing Changes (2026)
 
@@ -296,9 +296,9 @@ Produce:
 
 ## Phase 4e: Subcontracting Plan (if applicable)
 
-If the applicant is a large business (above the NAICS size standard for their primary SIN), a subcontracting plan is required under FAR 19.702. Small businesses are exempt.
+If the applicant is a large business (above the size standard for their primary NAICS code), a subcontracting plan is required under FAR 19.702. Small businesses are exempt.
 
-Ask: "Is your company classified as a small business under NAICS code 541512 (Computer Systems Design Services)? The current size standard is $34 million in average annual receipts."
+Ask: "Is your company classified as a small business under NAICS code 541512 (Computer Systems Design Services)? The current size standard is $34 million in average annual receipts." (Verify the current SBA size standard for 541512 before relying on that figure — SBA adjusts size standards periodically.)
 
 If they're large, help them draft a subcontracting plan that includes:
 - Percentage goals for subcontracting to small businesses, HUBZone, SDVOSB, WOSB, and 8(a) firms
@@ -328,7 +328,7 @@ Before the user goes to eOffer, walk through every required document. For each o
 
 **Financial Documents:**
 - [ ] 2 consecutive years of financial statements — at minimum, a balance sheet and income statement (P&L) for each year. Cash flow statement may be requested during GSA's financial review but is not a minimum requirement at offer stage.
-- [ ] Audited financial statements are preferred but NOT required. Reviewed statements or statements directly from the company's accounting system are acceptable. The solicitation says "audited, if available."
+- [ ] Audited financial statements are preferred but NOT required. Reviewed statements or statements directly from the company's accounting system (e.g., QuickBooks exports formatted as a proper balance sheet and income statement) are acceptable. The solicitation says "audited, if available." Tax returns alone are not a substitute for financial statements.
 - [ ] If the company is less than 2 years old (Startup Springboard with FASt Lane sponsorship), alternative documentation per the solicitation
 
 **Pricing Documents:**
@@ -405,7 +405,7 @@ Before the user submits, make sure they understand what happens after award. Man
 - SAM.gov registration must remain active throughout the contract
 - Any changes to company information (address, ownership, key personnel) must be reported via eMod
 - The user must maintain a current price list on GSA Advantage
-- Mass modifications (issued with each Refresh) must be accepted within the stated window — Refresh 32 required acceptance within 30 days, shorter than the typical 90
+- Mass modifications (issued with each Refresh) must be accepted within the stated window, which has been shrinking — historically 90 days, 60 days for Refresh 31, 30 days for Refresh 32
 
 ### Option Period Renewals
 - The initial contract is 5 years with up to three 5-year option periods (20 years total potential)
