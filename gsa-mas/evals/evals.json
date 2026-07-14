@@ -85,7 +85,9 @@
       "must_contain": ["PPQ", "Past Performance Questionnaire", "template", "2-4 week", "3"],
       "must_not_contain": [],
       "assertions": [
-        "Explains PPQ as GSA-specific template, not generic reference letter",
+        "Explains the GSA PPQ template is the preferred format, filled out by the reference (not the applicant)",
+        "Mentions references may respond in their own format if it addresses all PPQ evaluation areas",
+        "Mentions the CO-request letter option for references who will only complete a PPQ for the contracting officer",
         "Walks through each reference interactively",
         "Warns about 2-4 week timeline",
         "Minimum 3 required",
@@ -532,6 +534,34 @@
         "Summarizes major changes: TDR mandatory, CSP-1 eliminated, experience substitution rules",
         "Advises checking SAM.gov for the live solicitation",
         "Notes Refresh 32 has a 30-day acceptance window"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "professional-compensation-plan-not-required",
+      "category": "Phase 5 (Outdated Requirements)",
+      "prompt": "My GSA consultant's checklist from last year says I need to submit a Professional Compensation Plan with my MAS offer for IT services. I haven't written one yet — how detailed does it need to be?",
+      "must_contain": ["no longer required", "Refresh 30"],
+      "must_not_contain": ["salary ranges for each labor category", "must submit a compensation plan"],
+      "assertions": [
+        "States the Professional Compensation Plan requirement was removed in Refresh 30 (December 2025) under FAR 52.222-46",
+        "Advises the user not to spend time preparing one",
+        "Recommends verifying against the current solicitation on SAM.gov",
+        "Redirects to the documents that are still required"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "ppq-reluctant-reference",
+      "category": "Phase 3 Factor 2 (PPQ Alternatives)",
+      "prompt": "I'm collecting past performance for my GSA MAS application. One of my best references is a state agency that says their policy is to only fill out evaluation forms if the government buyer contacts them directly. Another sent me a glowing two-paragraph recommendation letter instead of the PPQ form. Do these count?",
+      "must_contain": ["letter", "contracting officer", "evaluation area"],
+      "must_not_contain": [],
+      "assertions": [
+        "Explains the CO-request letter option: upload a letter stating the reference will complete the PPQ when the FSS Contracting Officer requests it",
+        "Warns the proposal may be rejected if neither the PPQ nor the letter is uploaded",
+        "Explains the recommendation letter only counts if it addresses ALL PPQ evaluation areas — a generic letter does not qualify",
+        "Offers to help get the second reference to a compliant format"
       ]
     }
   ]

@@ -111,7 +111,12 @@ GSA requires at least 3 past performance evaluations. There are two paths depend
 
 **Path A — Federal past performance (preferred):** If the company has prior federal contracts, CPARS (Contractor Performance Assessment Reporting System) reports are the strongest evidence. Help the user identify which CPARS records to include.
 
-**Path B — Commercial past performance:** If the company has no federal experience (common for first-timers), GSA requires completed **Past Performance Questionnaires (PPQs)**. This is a specific GSA template — not a generic reference letter. The client/reference fills it out, not the applicant. The PPQ template is available on GSA's Required Templates page.
+**Path B — Commercial past performance:** If the company has no federal experience (common for first-timers), GSA requires **Past Performance Questionnaires (PPQs)** from customer references. The client/reference fills it out, not the applicant. The GSA PPQ template (available on GSA's Required Templates page) is the preferred format, but the solicitation permits two alternatives:
+
+- **Reference's own format** — a reference may respond in a format of their own choosing, as long as it addresses ALL of the evaluation areas in the PPQ template. A generic reference letter that skips evaluation areas does not qualify.
+- **CO-request letter** — if a reference will only complete the PPQ when asked by a GSA contracting officer, the offeror may instead upload a letter stating that the reference will provide a completed PPQ when the FSS Contracting Officer requests it. If neither the completed PPQs nor this letter is uploaded with the proposal, the offer may be rejected.
+
+The two paths can also be mixed: each qualifying CPARS report reduces the number of PPQs needed (e.g., 1 CPARS + 2 PPQs, or 2 CPARS + 1 PPQ, to reach the minimum of 3).
 
 **Important — Experience Substitution Restriction (Refresh 32, June 2026):** Using experience from affiliates, predecessor companies, or key personnel to satisfy past performance requirements is now **limited to Startup Springboard participants only**. Traditional MAS offerors must demonstrate past performance directly attributable to the offeror itself. If the user's company was recently formed from a merger or acquisition, and they're relying on the predecessor's track record, flag this — they may not be able to use it unless they qualify for Startup Springboard.
 
@@ -128,7 +133,7 @@ For each reference, collect:
 Walk the user through each reference one at a time (same interactive pattern as LCATs). After collecting the info, help them:
 - Draft a cover letter to send to each reference along with the PPQ template
 - Track which references have returned their PPQs (this is a common bottleneck — references forget or delay)
-- Identify backup references in case one doesn't respond
+- Identify backup references in case one doesn't respond — and before dropping a stalled reference, check whether one of the alternative formats above (own-format response or CO-request letter) would work instead
 
 The PPQ process typically takes 2-4 weeks because you're depending on other people. Start this early — don't wait until everything else is done.
 
@@ -317,7 +322,7 @@ Before the user goes to eOffer, walk through every required document. For each o
 
 **Technical Documents:**
 - [ ] Factor 1: Corporate Experience narrative (≤10,000 chars, with character count verified)
-- [ ] Factor 2: Past Performance — minimum 3 completed PPQs returned from references (or CPARS reports)
+- [ ] Factor 2: Past Performance — minimum 3 references covered by CPARS reports, completed PPQs, equivalent own-format responses addressing all PPQ evaluation areas, or a CO-request letter for any reference that will only complete a PPQ when the contracting officer asks
 - [ ] Factor 3: Quality Control Plan narrative (≤10,000 chars, with character count verified)
 - [ ] Factor 4: Relevant Project Experience narrative (≤10,000 chars, with character count verified)
 
@@ -331,6 +336,7 @@ Before the user goes to eOffer, walk through every required document. For each o
 - [ ] Commercial price list or rate card (must match Price Proposal Template rates)
 - [ ] Supporting wage/salary data if requested (BLS data, salary surveys, etc.)
 - [ ] Note: CSP-1 is NO LONGER required as of Refresh 31 (April 2026). If the user has already prepared one, it won't hurt but is not needed.
+- [ ] Note: A Professional Compensation Plan is NO LONGER required as of Refresh 30 (December 2025), which removed the requirement tied to FAR 52.222-46. Many older guides and consultant checklists still list it — tell the user not to spend time preparing one.
 
 **Category-Specific (IT Professional Services):**
 - [ ] Labor category descriptions document (all LCATs with titles, descriptions, and minimum qualifications)
@@ -414,6 +420,7 @@ Always remind the user:
 - The GSA MAS solicitation (47QSMD20R0001) is periodically refreshed. The user should always verify current requirements against the live solicitation on SAM.gov. As of this writing, the most recent refreshes are Refresh 31 (April 2026) and Refresh 32 (June 5, 2026).
 - Small Business Set-Aside (SBSA) SINs under the Professional Services Large Category are closed to new MAS contract-level awards/modifications as of 1/19/2025. Verify SIN availability before starting.
 - All new offers must be submitted as TDR offers post-Refresh 31. Pending non-TDR offers should be withdrawn and resubmitted.
+- Requirements get removed as well as added: CSP-1/MFC disclosures (removed in Refresh 31) and the Professional Compensation Plan (removed in Refresh 30) are no longer required, even though many older third-party guides still list them.
 - Experience substitution (affiliates, predecessors, key personnel) is limited to Startup Springboard participants only as of Refresh 32. Traditional offerors must use their own direct experience.
 - GSA may request supporting documentation (invoices, SOWs, contracts) to validate references and project experience claims as of Refresh 32. Users should have backup documentation ready for every claim in their proposal.
 - Consider engaging a GSA Schedule consultant for complex situations, especially around pricing strategy.
