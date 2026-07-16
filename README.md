@@ -90,7 +90,7 @@ npx skills add blencorp/skills --skill gsa-mas
 - Post-award obligations — minimum sales thresholds, monthly TDR reporting, IFF, compliance requirements
 - Tracks solicitation Refresh changes (Refresh 30–32) and re-verifies current requirements via web search
 
-**Evals included:** 38 evaluation cases covering every phase, plus behavioral checks (phase skipping, pushing back on weak inputs, catching pricing errors, correcting outdated requirements).
+**Evals included:** 42 evaluation cases covering every phase, plus behavioral checks (phase skipping, pushing back on weak inputs, catching pricing errors, correcting outdated requirements).
 
 ## About skills.sh
 
