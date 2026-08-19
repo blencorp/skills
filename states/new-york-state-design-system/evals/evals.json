@@ -1,0 +1,32 @@
+{
+  "skill": "new-york-state-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Build an NYS service form with Lit web components and design tokens.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "Assume the Angular wrapper always shares the exact core package version.",
+      "expects": [
+        "States that the Angular wrapper can lag the core packages",
+        "Checks the wrapper's declared compatibility before pairing versions",
+        "Does not assume undocumented version alignment"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add a kanban board using official NYSDS components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

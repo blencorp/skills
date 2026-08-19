@@ -1,0 +1,32 @@
+{
+  "skill": "virginia-web-standards",
+  "cases": [
+    {
+      "id": "conditional-positive",
+      "prompt": "Add the published Commonwealth Branding Bar and current VITA web standards to a Virginia site.",
+      "expects": [
+        "States the adoption gate",
+        "Uses only public official implementation",
+        "Pins the upstream snapshot"
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "prompt": "Generate a full Commonwealth component library even though the official portal says it is coming soon.",
+      "expects": [
+        "Enforces product and maturity boundaries",
+        "Does not invent availability",
+        "Routes or stops when needed"
+      ]
+    },
+    {
+      "id": "missing-api",
+      "prompt": "Use an undocumented component from Virginia Web Standards as though it were official.",
+      "expects": [
+        "Checks official sources",
+        "Identifies the gap",
+        "Labels any extension as custom"
+      ]
+    }
+  ]
+}

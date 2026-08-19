@@ -1,0 +1,32 @@
+{
+  "skill": "maryland-web-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Build a Maryland service page using MDWDS web components.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "Use the University of Maryland component library for a Maryland state agency.",
+      "expects": [
+        "States the governing boundary",
+        "Does not invent or misapply branding",
+        "Routes to the correct system or asks for authorization"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add an org-chart web component using official MDWDS components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

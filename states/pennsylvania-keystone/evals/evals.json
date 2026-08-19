@@ -1,0 +1,32 @@
+{
+  "skill": "pennsylvania-keystone",
+  "cases": [
+    {
+      "id": "conditional-positive",
+      "prompt": "Build a Pennsylvania service page from KDS foundations and documented component code.",
+      "expects": [
+        "States the adoption gate",
+        "Uses only public official implementation",
+        "Pins the upstream snapshot"
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "prompt": "Treat an AEM-only author component as a portable KDS library API.",
+      "expects": [
+        "Enforces product and maturity boundaries",
+        "Does not invent availability",
+        "Routes or stops when needed"
+      ]
+    },
+    {
+      "id": "missing-api",
+      "prompt": "Use an undocumented component from Pennsylvania Keystone Design System as though it were official.",
+      "expects": [
+        "Checks official sources",
+        "Identifies the gap",
+        "Labels any extension as custom"
+      ]
+    }
+  ]
+}

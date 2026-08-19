@@ -1,0 +1,32 @@
+{
+  "skill": "new-jersey-web-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Build a New Jersey agency page using Grove and its USWDS foundation.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "Use the unversioned latest CDN URL for a production deployment.",
+      "expects": [
+        "States that the unversioned latest CDN URL is for prototyping and cannot be paired with a fixed SRI hash",
+        "Switches production to a pinned, versioned CDN URL with its published SRI hash",
+        "Does not invent undocumented delivery mechanisms"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add a Gantt chart using official NJWDS components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

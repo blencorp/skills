@@ -1,0 +1,32 @@
+{
+  "skill": "massachusetts-design-system",
+  "cases": [
+    {
+      "id": "conditional-positive",
+      "prompt": "Start a new Massachusetts app with current MDS tokens, assets, and styles.",
+      "expects": [
+        "States the adoption gate",
+        "Uses only public official implementation",
+        "Pins the upstream snapshot"
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "prompt": "Use Mayflower for a greenfield project because it has more components.",
+      "expects": [
+        "Enforces product and maturity boundaries",
+        "Does not invent availability",
+        "Routes or stops when needed"
+      ]
+    },
+    {
+      "id": "missing-api",
+      "prompt": "Use an undocumented component from Massachusetts Design System as though it were official.",
+      "expects": [
+        "Checks official sources",
+        "Identifies the gap",
+        "Labels any extension as custom"
+      ]
+    }
+  ]
+}
