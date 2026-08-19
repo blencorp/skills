@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Ready; active package in the CMS Design System monorepo.
+- Release: Active package in the CMS Design System monorepo.
 - Delivery model: Branded child-system package consuming CMS Design System core.
 - Package snapshot: `@cmsgov/ds-cms-gov@18.1.0`, `@cmsgov/design-system@18.1.0`
 

@@ -10,7 +10,7 @@ Retrieved 2026-08-19. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: Delaware agency websites, particularly GIC-supported and WordPress implementations.
-- Release state: Conditional; official documentation, versioned hosted CDN assets, and code samples exist, but no npm package or public source repository was verified.
+- Release: Official documentation, versioned hosted CDN assets, and code samples exist, but no npm package or public source repository was verified.
 - Delivery: State-hosted versioned CDN CSS/JS (`https://lighthousecdn.delaware.gov/<release>/lighthouse.min.css` and `.min.js`) with a documented Bootstrap CDN dependency, copy-ready HTML components, WordPress-oriented templates, downloadable asset/favicon packages, and official documentation with a versioned Releases page (1.0, 1.1, 1.2).
 - Registry snapshot: no npm package verified.
 - License/terms: No public package/source license was verified. Link to official samples and confirm terms before redistribution.

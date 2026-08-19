@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** New Jersey state-government digital products governed by Grove/NJWDS.
-- **Release state:** Ready; active official source, npm package, documentation, and CDN.
+- **Release:** active official source, npm package, documentation, and CDN.
 - **Delivery:** USWDS-derived npm package, source release, Sass theme, compiled files, and versioned CDN.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

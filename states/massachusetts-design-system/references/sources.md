@@ -14,7 +14,7 @@ Retrieved 2026-08-18. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: Massachusetts state digital products governed by the current MDS. Use legacy Mayflower only for existing maintenance or migration.
-- Release state: Conditional; tokens, assets, and styles are public, while the complete replacement component implementation is still being released.
+- Release: Tokens, assets, and styles are public, while the complete replacement component implementation is still being released.
 - Delivery: Independent npm packages for tokens, assets, and shared Sass/utility styles; component packages are incomplete.
 - Registry snapshot: @massds/mds-tokens@2.0.0; @massds/mds-assets@1.2.0; @massds/mds-styles@1.1.0
 - License/terms: MIT in current package metadata; preserve Massachusetts asset and mark restrictions.

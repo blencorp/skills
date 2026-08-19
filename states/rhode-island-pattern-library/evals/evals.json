@@ -2,10 +2,10 @@
   "skill": "rhode-island-pattern-library",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Maintain an existing Rhode Island eCMS pattern from the official Pattern Lab.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

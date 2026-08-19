@@ -11,7 +11,7 @@ Retrieved 2026-08-19. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: Commonwealth of Pennsylvania digital services. Distinguish portable KDS guidance from PA.gov's managed AEM components.
-- Release state: Conditional; public guidance and code examples are current, but no official versioned package or public source repository was verified.
+- Release: Public guidance and code examples are current, but no official versioned package or public source repository was verified.
 - Delivery: Official documentation hub, component code in the official Keystone Storybook (components.pa.gov), tokens, and managed-platform guidance. The hub's component pages link each component to its Storybook entry rather than embedding code.
 - Registry snapshot: no official package verified.
 - License/terms: No portable package/source license was verified. Confirm terms before redistributing code examples or marks.

@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; active official package, explicitly pre-1.0.
+- Release: Active official package, explicitly pre-1.0.
 - Delivery model: NASA USWDS theme package with Sass, compiled assets, Storybook, and integration guides.
 - Package snapshot: `@nasa-hds/core@0.9.0`, `@uswds/uswds@3.14.0`
 

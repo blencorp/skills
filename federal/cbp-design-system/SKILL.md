@@ -1,17 +1,15 @@
 ---
 name: cbp-design-system
-description: Builds U.S. Customs and Border Protection interfaces with the official beta web-component or generated React packages. Use for CBP products that accept beta risk and supported React constraints; do not use the archived CBP Theme.
+description: Builds U.S. Customs and Border Protection interfaces with the official CBP web-component or generated React packages, published as beta. Use for CBP products within the supported React versions; do not use the archived CBP Theme.
 ---
 
 # CBP Design System
 
-> Adoption gate: Conditional; official source and packages are explicitly beta — interfaces may change between beta releases. See the sources ledger for the current snapshot.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -26,10 +24,11 @@ description: Builds U.S. Customs and Border Protection interfaces with the offic
 
 - **Scope:** CBP-governed product interfaces.
 - **Delivery:** Web components as source of truth, with generated React components for React 18 and lower.
+- **Release:** Official source and packages are published as beta; interfaces may change between beta releases. Pin the exact version.
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

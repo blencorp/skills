@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; active official package and repository.
+- Release: Active official package and repository.
 - Delivery model: USWDS-compatible Sass, JavaScript, fonts, images, and component extensions.
 - Package snapshot: `@18f/identity-design-system@9.7.0`
 

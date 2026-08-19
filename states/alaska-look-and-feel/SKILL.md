@@ -5,13 +5,11 @@ description: Builds State of Alaska executive-branch public websites with the ma
 
 # Alaska Look and Feel
 
-> Adoption gate: Conditional; official standards and hosted resources are public, but there is no versioned package or source repository.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -29,7 +27,7 @@ description: Builds State of Alaska executive-branch public websites with the ma
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

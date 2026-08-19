@@ -2,10 +2,10 @@
   "skill": "fec-pattern-library",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Maintain an FEC.gov pattern in the existing FEC CMS build.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

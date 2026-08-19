@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** Louisiana state digital products. Keep agency-specific identity within Pelican's documented extension points.
-- **Release state:** Ready; Pelican 2 is current and the official package and repository are active.
+- **Release:** Pelican 2 is current and the official package and repository are active.
 - **Delivery:** npm package with compiled CSS/JavaScript and Bootstrap dependencies.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

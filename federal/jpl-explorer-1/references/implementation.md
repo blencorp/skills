@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; active official repository and published packages.
+- Release: Active official repository and published packages.
 - Delivery model: Vue component library plus compiled shared assets for HTML or other frameworks.
 - Package snapshot: `@explorer-1/vue@1.1.14`, `@explorer-1/common@2.1.7`
 

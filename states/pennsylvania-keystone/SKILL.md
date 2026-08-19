@@ -1,17 +1,15 @@
 ---
 name: pennsylvania-keystone
-description: Builds Commonwealth of Pennsylvania interfaces from the official Keystone Design System foundations, tokens, components, code examples, content guidance, and AEM-aware documentation. Use for Pennsylvania products while recognizing that no portable package or source repository was verified.
+description: Builds Commonwealth of Pennsylvania interfaces from the official Keystone Design System foundations, tokens, components, code examples, content guidance, and AEM-aware documentation. Use for Pennsylvania products; implement from the published guidance and examples, since no portable package is published.
 ---
 
 # Pennsylvania Keystone Design System
 
-> Adoption gate: Conditional; public guidance and code examples are current, but no official versioned package or public source repository was verified.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -29,7 +27,7 @@ description: Builds Commonwealth of Pennsylvania interfaces from the official Ke
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

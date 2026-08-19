@@ -5,8 +5,6 @@ description: Builds Consumer Financial Protection Bureau interfaces with the off
 
 # CFPB Design System
 
-> Adoption gate: Conditional; upstream describes the system as work in progress — the React library's own status note says interfaces will change and things will break. Pin exact versions and accept interface churn, or route to a stable system.
-
 Build within the system's documented scope and delivery model.
 
 ## Before editing
@@ -28,12 +26,12 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** CFPB product interfaces. The React library and core style package must remain version-compatible.
-- **Release state:** Conditional; active official core and React repositories, but upstream describes both as work in progress and warns that interfaces will change.
+- **Release:** Active official core and React repositories; upstream describes both as work in progress and notes that interfaces will change. Pin exact versions.
 - **Delivery:** Core HTML/CSS/JavaScript and a separate React/Storybook package.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.
 - A passing component example does not prove the completed service conforms to WCAG, Section 508, the ADA, or local policy.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

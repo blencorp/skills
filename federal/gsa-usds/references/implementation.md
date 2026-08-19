@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; active official source and preview, but the package is installed from GitHub and is not yet published to npm.
+- Release: Active official source and preview, but the package is installed from GitHub and is not yet published to npm.
 - Delivery model: React and TypeScript components installed directly from the official Git repository.
 - Package snapshot: `github:GSA-TTS/usds (unpinned Git dependency unless a commit/tag is specified)`
 

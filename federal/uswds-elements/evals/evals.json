@@ -2,10 +2,10 @@
   "skill": "uswds-elements",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Prototype the USWDS Banner Element while keeping the rest of the site on USWDS Core.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

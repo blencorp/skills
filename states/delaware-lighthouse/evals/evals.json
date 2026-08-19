@@ -2,10 +2,10 @@
   "skill": "delaware-lighthouse",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Create a Delaware WordPress service page from Lighthouse components.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

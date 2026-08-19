@@ -1,17 +1,15 @@
 ---
 name: usda-fpac-design-system
-description: Maintains USDA Farm Production and Conservation or Farm Service Agency interfaces with the official FSA Design System documentation, the fsa-style npm package, and its source. Use for those products with an explicit maintenance review; do not represent it as current USDA-wide guidance.
+description: Maintains USDA Farm Production and Conservation or Farm Service Agency interfaces with the official FSA Design System documentation, the fsa-style npm package, and its source. Use for those products and check current maintenance, since releases are older than most systems here; do not represent it as current USDA-wide guidance.
 ---
 
 # USDA FPAC/FSA Design System
 
-> Adoption gate: Conditional; the official package, source, and documentation are public, but releases and activity are older than the Ready systems — review maintenance status before new adoption.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -26,10 +24,11 @@ description: Maintains USDA Farm Production and Conservation or Farm Service Age
 
 - **Scope:** USDA FPAC/FSA product interfaces, not every USDA website.
 - **Delivery:** Official `fsa-style` npm package or documented ZIP download of CSS, images, and web fonts, plus hosted documentation and source repositories.
+- **Release:** Official package, source, and documentation are public; releases and activity are older than most systems in this collection. Check current maintenance before adoption.
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

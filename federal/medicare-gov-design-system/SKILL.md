@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** Medicare.gov product surfaces. Do not treat it as a general healthcare or CMS brand.
-- **Release state:** Ready; active package in the CMS Design System monorepo.
+- **Release:** active package in the CMS Design System monorepo.
 - **Delivery:** Branded child-system package consuming CMS Design System core.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** VA.gov and VA-governed web or native-mobile services. Select the web or mobile channel before choosing packages.
-- **Release state:** Ready; actively maintained official web and mobile libraries.
+- **Release:** actively maintained official web and mobile libraries.
 - **Delivery:** Web components with React bindings, CSS/tokens, and a separate native-mobile library.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

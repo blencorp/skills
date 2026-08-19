@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; public source exists and is not archived, but maintenance freshness and statewide support were not confirmed.
+- Release: Public source exists and is not archived, but maintenance freshness and statewide support were not confirmed.
 - Delivery model: Pattern Lab source repository and generated public pattern library.
 - Package snapshot: no official package verified
 

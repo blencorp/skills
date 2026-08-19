@@ -11,7 +11,7 @@ Retrieved 2026-08-18. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: SAM.gov product interfaces and explicitly approved related applications.
-- Release state: Conditional; active official Angular package, while official documentation describes the system as an MVP in active development.
+- Release: Active official Angular package, while official documentation describes the system as an MVP in active development.
 - Delivery: Angular component package.
 - Registry snapshot: @gsa-sam/components@17.0.15
 - License/terms: Follow the official repository and package license files.

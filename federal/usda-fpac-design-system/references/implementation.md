@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Conditional; the official package, source, and documentation are public, but releases and activity are older than the Ready systems.
+- Release: The official package, source, and documentation are public, but releases and activity are older than most systems in this collection.
 - Delivery model: Official `fsa-style` npm package or documented ZIP download of CSS, images, and web fonts, plus hosted documentation and source repositories.
 - Package snapshot: `fsa-style@2.7.7` (latest release published 2022)
 
@@ -19,7 +19,7 @@ or the documented ZIP download from the official repository. Pin the version or 
 
 ## Integration decisions
 
-- Review repository activity, release age, dependencies, and browser assumptions before new adoption; the latest package release predates the Ready systems by years.
+- Review repository activity, release age, dependencies, and browser assumptions before new adoption; the latest package release is several years old.
 - Do not apply FPAC/FSA branding to another USDA mission area.
 - For new department-wide work, check current USDA policy and USWDS rather than assuming this is the department standard.
 

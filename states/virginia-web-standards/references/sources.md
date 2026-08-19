@@ -11,7 +11,7 @@ Retrieved 2026-08-18. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: Virginia state websites using the current branding bar and web standards. This is not a full component-system skill.
-- Release state: Conditional and limited; the developer portal says the broader Commonwealth Design System is coming soon and elements are still being finalized.
+- Release: The developer portal says the broader Commonwealth Design System is coming soon and elements are still being finalized.
 - Delivery: Public branding-bar implementation resources and web standards guidance.
 - Registry snapshot: no official package verified.
 - License/terms: No standalone package/source license was verified. Use official resources under Virginia terms and preserve marks.

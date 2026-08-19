@@ -2,10 +2,10 @@
   "skill": "montana-gov-template",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Integrate the hosted Montana.gov template into an authorized static site.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

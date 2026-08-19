@@ -10,7 +10,7 @@ Retrieved 2026-08-18. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: FEC.gov and its coupled CMS/frontend environment.
-- Release state: Conditional; active public source and documentation, but product-specific and not distributed as an independent package.
+- Release: Active public source and documentation, but product-specific and not distributed as an independent package.
 - Delivery: Source repository and generated pattern library coupled to the FEC CMS assets.
 - Registry snapshot: no official package verified.
 - License/terms: Follow the official repository license and FEC asset terms.

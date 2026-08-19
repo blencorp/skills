@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional and limited; the developer portal says the broader Commonwealth Design System is coming soon and elements are still being finalized.
+- Release: The developer portal says the broader Commonwealth Design System is coming soon and elements are still being finalized.
 - Delivery model: Public branding-bar implementation resources and web standards guidance.
 - Package snapshot: no official package verified
 

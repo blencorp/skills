@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** HealthCare.gov product surfaces. It is a CMS child system, not a government-wide healthcare theme.
-- **Release state:** Ready; active package in the CMS Design System monorepo.
+- **Release:** active package in the CMS Design System monorepo.
 - **Delivery:** Branded child-system package consuming CMS Design System core.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

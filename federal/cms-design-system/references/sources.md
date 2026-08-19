@@ -11,7 +11,7 @@ Retrieved 2026-08-18. Recheck before dependency upgrades or new production adopt
 ## Captured facts
 
 - Scope: CMS product interfaces using the core theme. Route HealthCare.gov, Medicare.gov, and CMS.gov work to their child-system skills.
-- Release state: Ready; active official monorepo and npm package.
+- Release: Active official monorepo and npm package.
 - Delivery: CSS, JavaScript, React components, utility classes, tokens, and grid framework.
 - Registry snapshot: @cmsgov/design-system@18.1.0
 - License/terms: Follow the official monorepo LICENSE and package notices.

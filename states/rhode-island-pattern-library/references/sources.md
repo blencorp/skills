@@ -10,7 +10,7 @@ Retrieved 2026-08-18. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: Rhode Island eCMS products represented by the public Pattern Lab and official source.
-- Release state: Conditional; public source exists and is not archived, but maintenance freshness and statewide support were not confirmed.
+- Release: Public source exists and is not archived, but maintenance freshness and statewide support were not confirmed.
 - Delivery: Pattern Lab source repository and generated public pattern library.
 - Registry snapshot: no official package verified.
 - License/terms: MIT in official repository metadata.

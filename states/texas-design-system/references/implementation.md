@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Conditional; complete version 1.0.0 reference delivery from May 2026 — a one-time deliverable, not a continuously supported package, with the adopting agency owning maintenance after handoff.
+- Release: Complete version 1.0.0 reference delivery from May 2026 — a one-time deliverable, not a continuously supported package, with the adopting agency owning maintenance after handoff.
 - Delivery model: Plain HTML, `design-system.css`, optional `design-system.js`, CSS custom properties, and Figma resources; no framework or build step required.
 - Package snapshot: no official package verified
 

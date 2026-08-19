@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** Georgia state-government sites and applications authorized to use Orchard, not county or municipal products.
-- **Release state:** Ready; the official npm package and versioned CDN assets are current. No public source repository was verified — the package ships compiled assets.
+- **Release:** the official npm package and versioned CDN assets are current. No public source repository was verified — the package ships compiled assets.
 - **Delivery:** npm package with compiled CSS, per-component JavaScript bundles, and agency palette stylesheets; versioned CDN stylesheets; Storybook-style documentation with component examples.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

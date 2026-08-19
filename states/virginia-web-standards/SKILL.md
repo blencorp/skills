@@ -1,17 +1,15 @@
 ---
 name: virginia-web-standards
-description: Builds the currently public Virginia Commonwealth Branding Bar and follows VITA web standards for authorized state websites. Use for the limited implementation available now; do not claim the broader Commonwealth Design System is released.
+description: Builds the Virginia Commonwealth Branding Bar and follows VITA web standards for authorized state websites. Use for Virginia state sites; the branding bar is the currently published implementation, with the broader Commonwealth Design System still in progress.
 ---
 
 # Virginia Web Standards
 
-> Adoption gate: Conditional and limited; the developer portal says the broader Commonwealth Design System is coming soon and elements are still being finalized.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -26,10 +24,11 @@ description: Builds the currently public Virginia Commonwealth Branding Bar and 
 
 - **Scope:** Virginia state websites using the current branding bar and web standards. This is not a full component-system skill.
 - **Delivery:** Public branding-bar implementation resources and web standards guidance.
+- **Release:** The published material is the Commonwealth branding bar; the developer portal says the broader Commonwealth Design System is coming soon and elements are still being finalized.
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

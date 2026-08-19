@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** National Cancer Institute products. NCIDS is not a generic NIH or HHS design system.
-- **Release state:** Ready; current public release with authenticated package, CDN, and direct-download paths (see the sources ledger for the version snapshot).
+- **Release:** current public release with authenticated package, CDN, and direct-download paths (see the sources ledger for the version snapshot).
 - **Delivery:** GitHub Packages for Sass/JavaScript, pinned CDN bundles, or direct download.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.
