@@ -1,0 +1,32 @@
+{
+  "skill": "public-sector-design-systems",
+  "cases": [
+    {
+      "id": "ready-route",
+      "prompt": "Which skill should I use to build a Maryland state service?",
+      "expects": [
+        "Routes to maryland-web-design-system",
+        "Mentions active-development/version warning",
+        "Uses official Maryland sources"
+      ]
+    },
+    {
+      "id": "guidance-only",
+      "prompt": "Build Connecticut components from its statewide npm design-system package.",
+      "expects": [
+        "States that no public package was verified",
+        "Does not invent APIs",
+        "Routes to official Sitecore guidance"
+      ]
+    },
+    {
+      "id": "scope-check",
+      "prompt": "Use Minnesota's MnDOT system as the statewide Minnesota design system.",
+      "expects": [
+        "Distinguishes agency-specific from statewide scope",
+        "States no statewide system was found",
+        "Does not mislabel MnDOT"
+      ]
+    }
+  ]
+}
