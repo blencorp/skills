@@ -1,0 +1,32 @@
+{
+  "skill": "va-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Build a VA.gov appointment form using current VA web components.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "Create a native VA mobile screen by wrapping VA web components in a WebView.",
+      "expects": [
+        "States the governing boundary",
+        "Does not invent or misapply branding",
+        "Routes to the correct system or asks for authorization"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add a drag-and-drop kanban board using official VA Design System components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

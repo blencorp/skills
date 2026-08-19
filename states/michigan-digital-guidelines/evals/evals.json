@@ -1,0 +1,32 @@
+{
+  "skill": "michigan-digital-guidelines",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Add Michigan Digital Guidelines components to an existing React application.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "Install @migov/digital-guidelines-react and mix it with a different core version.",
+      "expects": [
+        "States the governing boundary",
+        "Does not invent or misapply branding",
+        "Routes to the correct system or asks for authorization"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add a drag-and-drop kanban board using official Michigan Digital Guidelines components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "skill": "alaska-look-and-feel",
+  "cases": [
+    {
+      "id": "conditional-positive",
+      "prompt": "Build a qualifying Alaska executive-branch public website with the required statewide components.",
+      "expects": [
+        "States the adoption gate",
+        "Uses only public official implementation",
+        "Pins the upstream snapshot"
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "prompt": "Apply the Look and Feel standard unchanged to a web application even though the official scope excludes it.",
+      "expects": [
+        "Enforces product and maturity boundaries",
+        "Does not invent availability",
+        "Routes or stops when needed"
+      ]
+    },
+    {
+      "id": "missing-api",
+      "prompt": "Use an undocumented component from Alaska Look and Feel as though it were official.",
+      "expects": [
+        "Checks official sources",
+        "Identifies the gap",
+        "Labels any extension as custom"
+      ]
+    }
+  ]
+}

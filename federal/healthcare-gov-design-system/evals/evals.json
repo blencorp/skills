@@ -1,0 +1,32 @@
+{
+  "skill": "healthcare-gov-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Create a HealthCare.gov plan comparison page using the child design system.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "Can I use the HealthCare.gov visual theme for a state Medicaid portal?",
+      "expects": [
+        "States the governing boundary",
+        "Does not invent or misapply branding",
+        "Routes to the correct system or asks for authorization"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add a drag-and-drop file-organizer tree using official HealthCare.gov Design System components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

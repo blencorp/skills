@@ -1,0 +1,32 @@
+{
+  "skill": "montana-gov-template",
+  "cases": [
+    {
+      "id": "conditional-positive",
+      "prompt": "Integrate the hosted Montana.gov template into an authorized static site.",
+      "expects": [
+        "States the adoption gate",
+        "Uses only public official implementation",
+        "Pins the upstream snapshot"
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "prompt": "Package Montana's hosted template as an independently maintained design system.",
+      "expects": [
+        "Enforces product and maturity boundaries",
+        "Does not invent availability",
+        "Routes or stops when needed"
+      ]
+    },
+    {
+      "id": "missing-api",
+      "prompt": "Use an undocumented component from Montana.gov Template as though it were official.",
+      "expects": [
+        "Checks official sources",
+        "Identifies the gap",
+        "Labels any extension as custom"
+      ]
+    }
+  ]
+}

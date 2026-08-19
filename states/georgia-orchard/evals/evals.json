@@ -1,0 +1,32 @@
+{
+  "skill": "georgia-orchard",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Build a Georgia agency service page styled with Orchard installed from the official npm package.",
+      "expects": [
+        "Uses a documented delivery path (npm package or versioned CDN) with a pinned version",
+        "Uses documented Orchard components and an agency palette rather than ad-hoc overrides",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "A Georgia county government wants its new website styled with Orchard. Which system governs it?",
+      "expects": [
+        "States Orchard's state-government scope",
+        "Does not misapply state branding to a county product",
+        "Routes to the correct system or asks for authorization"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add a drag-and-drop kanban board using official Orchard components.",
+      "expects": [
+        "Checks the official Orchard documentation",
+        "States that Orchard does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

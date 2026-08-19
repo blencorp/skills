@@ -1,0 +1,224 @@
+[
+  {
+    "name": "public-sector-design-systems",
+    "path": "public-sector-design-systems",
+    "jurisdiction": "Federal/state/territory router",
+    "status": "router"
+  },
+  {
+    "name": "uswds",
+    "path": "uswds",
+    "jurisdiction": "Federal government",
+    "status": "ready"
+  },
+  {
+    "name": "uswds-elements",
+    "path": "federal/uswds-elements",
+    "jurisdiction": "Federal government",
+    "status": "conditional"
+  },
+  {
+    "name": "gsa-usds",
+    "path": "federal/gsa-usds",
+    "jurisdiction": "GSA TTS",
+    "status": "conditional"
+  },
+  {
+    "name": "login-gov-design-system",
+    "path": "federal/login-gov-design-system",
+    "jurisdiction": "Login.gov",
+    "status": "ready"
+  },
+  {
+    "name": "sam-design-system",
+    "path": "federal/sam-design-system",
+    "jurisdiction": "SAM.gov",
+    "status": "conditional"
+  },
+  {
+    "name": "cms-design-system",
+    "path": "federal/cms-design-system",
+    "jurisdiction": "CMS",
+    "status": "ready"
+  },
+  {
+    "name": "healthcare-gov-design-system",
+    "path": "federal/healthcare-gov-design-system",
+    "jurisdiction": "HealthCare.gov",
+    "status": "ready"
+  },
+  {
+    "name": "medicare-gov-design-system",
+    "path": "federal/medicare-gov-design-system",
+    "jurisdiction": "Medicare.gov",
+    "status": "ready"
+  },
+  {
+    "name": "cms-gov-design-system",
+    "path": "federal/cms-gov-design-system",
+    "jurisdiction": "CMS.gov",
+    "status": "ready"
+  },
+  {
+    "name": "va-design-system",
+    "path": "federal/va-design-system",
+    "jurisdiction": "Department of Veterans Affairs",
+    "status": "ready"
+  },
+  {
+    "name": "cfpb-design-system",
+    "path": "federal/cfpb-design-system",
+    "jurisdiction": "Consumer Financial Protection Bureau",
+    "status": "conditional"
+  },
+  {
+    "name": "fec-pattern-library",
+    "path": "federal/fec-pattern-library",
+    "jurisdiction": "Federal Election Commission",
+    "status": "conditional"
+  },
+  {
+    "name": "nasa-horizon-design-system",
+    "path": "federal/nasa-horizon-design-system",
+    "jurisdiction": "NASA",
+    "status": "conditional"
+  },
+  {
+    "name": "jpl-explorer-1",
+    "path": "federal/jpl-explorer-1",
+    "jurisdiction": "NASA JPL",
+    "status": "ready"
+  },
+  {
+    "name": "jpl-stellar-design-system",
+    "path": "federal/jpl-stellar-design-system",
+    "jurisdiction": "NASA JPL",
+    "status": "conditional"
+  },
+  {
+    "name": "nci-design-system",
+    "path": "federal/nci-design-system",
+    "jurisdiction": "National Cancer Institute",
+    "status": "ready"
+  },
+  {
+    "name": "cdc-dibbs-design-system",
+    "path": "federal/cdc-dibbs-design-system",
+    "jurisdiction": "CDC DIBBs",
+    "status": "conditional"
+  },
+  {
+    "name": "cbp-design-system",
+    "path": "federal/cbp-design-system",
+    "jurisdiction": "Customs and Border Protection",
+    "status": "conditional"
+  },
+  {
+    "name": "irs-web-design-system",
+    "path": "federal/irs-web-design-system",
+    "jurisdiction": "Internal Revenue Service",
+    "status": "conditional"
+  },
+  {
+    "name": "usda-fpac-design-system",
+    "path": "federal/usda-fpac-design-system",
+    "jurisdiction": "USDA FPAC/FSA",
+    "status": "conditional"
+  },
+  {
+    "name": "alaska-look-and-feel",
+    "path": "states/alaska-look-and-feel",
+    "jurisdiction": "Alaska",
+    "status": "conditional"
+  },
+  {
+    "name": "delaware-lighthouse",
+    "path": "states/delaware-lighthouse",
+    "jurisdiction": "Delaware",
+    "status": "conditional"
+  },
+  {
+    "name": "georgia-orchard",
+    "path": "states/georgia-orchard",
+    "jurisdiction": "Georgia",
+    "status": "ready"
+  },
+  {
+    "name": "louisiana-pelican",
+    "path": "states/louisiana-pelican",
+    "jurisdiction": "Louisiana",
+    "status": "ready"
+  },
+  {
+    "name": "maryland-web-design-system",
+    "path": "states/maryland-web-design-system",
+    "jurisdiction": "Maryland",
+    "status": "conditional"
+  },
+  {
+    "name": "massachusetts-design-system",
+    "path": "states/massachusetts-design-system",
+    "jurisdiction": "Massachusetts",
+    "status": "conditional"
+  },
+  {
+    "name": "michigan-digital-guidelines",
+    "path": "states/michigan-digital-guidelines",
+    "jurisdiction": "Michigan",
+    "status": "ready"
+  },
+  {
+    "name": "missouri-gov-design-system",
+    "path": "states/missouri-gov-design-system",
+    "jurisdiction": "Missouri",
+    "status": "conditional"
+  },
+  {
+    "name": "montana-gov-template",
+    "path": "states/montana-gov-template",
+    "jurisdiction": "Montana",
+    "status": "conditional"
+  },
+  {
+    "name": "new-jersey-web-design-system",
+    "path": "states/new-jersey-web-design-system",
+    "jurisdiction": "New Jersey",
+    "status": "ready"
+  },
+  {
+    "name": "new-york-state-design-system",
+    "path": "states/new-york-state-design-system",
+    "jurisdiction": "New York",
+    "status": "ready"
+  },
+  {
+    "name": "pennsylvania-keystone",
+    "path": "states/pennsylvania-keystone",
+    "jurisdiction": "Pennsylvania",
+    "status": "conditional"
+  },
+  {
+    "name": "rhode-island-pattern-library",
+    "path": "states/rhode-island-pattern-library",
+    "jurisdiction": "Rhode Island",
+    "status": "conditional"
+  },
+  {
+    "name": "texas-design-system",
+    "path": "states/texas-design-system",
+    "jurisdiction": "Texas",
+    "status": "conditional"
+  },
+  {
+    "name": "utah-design-system",
+    "path": "states/utah-design-system",
+    "jurisdiction": "Utah",
+    "status": "ready"
+  },
+  {
+    "name": "virginia-web-standards",
+    "path": "states/virginia-web-standards",
+    "jurisdiction": "Virginia",
+    "status": "conditional"
+  }
+]

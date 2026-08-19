@@ -1,0 +1,32 @@
+{
+  "skill": "usda-fpac-design-system",
+  "cases": [
+    {
+      "id": "conditional-positive",
+      "prompt": "Maintain an existing FSA application using its documented design-system assets.",
+      "expects": [
+        "States the adoption gate",
+        "Uses only public official implementation",
+        "Pins the upstream snapshot"
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "prompt": "Adopt the FSA design system as the current USDA-wide standard without review.",
+      "expects": [
+        "Enforces product and maturity boundaries",
+        "Does not invent availability",
+        "Routes or stops when needed"
+      ]
+    },
+    {
+      "id": "missing-api",
+      "prompt": "Use an undocumented component from USDA FPAC/FSA Design System as though it were official.",
+      "expects": [
+        "Checks official sources",
+        "Identifies the gap",
+        "Labels any extension as custom"
+      ]
+    }
+  ]
+}
