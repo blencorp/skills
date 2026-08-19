@@ -2,10 +2,10 @@
   "skill": "sam-design-system",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Add an accessible SAM.gov Angular form with SAM Design System components.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

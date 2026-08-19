@@ -1,17 +1,15 @@
 ---
 name: massachusetts-design-system
-description: Builds Massachusetts digital-service foundations with the current Massachusetts Design System token, asset, and style packages. Use for new Mass.gov work while recognizing that the replacement system is only partially released and Mayflower is not recommended for new work.
+description: Builds Massachusetts digital-service foundations with the current Massachusetts Design System token, asset, and style packages. Use for new Mass.gov work; components are still being released, and Mayflower is not recommended for new work.
 ---
 
 # Massachusetts Design System
 
-> Adoption gate: Conditional; tokens, assets, and styles are public, while the complete replacement component implementation is still being released.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -26,10 +24,11 @@ description: Builds Massachusetts digital-service foundations with the current M
 
 - **Scope:** Massachusetts state digital products governed by the current MDS. Use legacy Mayflower only for existing maintenance or migration.
 - **Delivery:** Independent npm packages for tokens, assets, and shared Sass/utility styles; component packages are incomplete.
+- **Release:** Tokens, assets, and styles are published; the complete replacement component implementation is still being released.
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; current public release 3.5.1 with authenticated package, CDN, and direct-download paths.
+- Release: Current public release 3.5.1 with authenticated package, CDN, and direct-download paths.
 - Delivery model: GitHub Packages for Sass/JavaScript, pinned CDN bundles, or direct download.
 - Package snapshot: `@nciocpl/ncids-css@3.5.1 (GitHub Packages)`, `@nciocpl/ncids-js@3.5.1 (GitHub Packages)`
 

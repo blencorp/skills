@@ -1,17 +1,15 @@
 ---
 name: nasa-horizon-design-system
-description: Builds NASA web modernization interfaces with the official Horizon Design System Core theme layered on USWDS. Use only after confirming the NASA project fits Horizon's consolidation strategy; retain its pre-1.0 and NASA-brand scope warnings.
+description: Builds NASA web modernization interfaces with the official Horizon Design System Core theme layered on USWDS. Use for NASA projects within Horizon's consolidation strategy; the package is pre-1.0, so pin the exact version, and keep Horizon's NASA-brand scope.
 ---
 
 # NASA Horizon Design System
 
-> Adoption gate: Conditional; the active official package is explicitly pre-1.0 — API and class names may change between minor versions. See the sources ledger for the current snapshot.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -26,10 +24,11 @@ description: Builds NASA web modernization interfaces with the official Horizon 
 
 - **Scope:** NASA-branded sites aligned to NASA's web modernization and consolidation strategy. Interagency and non-NASA sites should use USWDS.
 - **Delivery:** NASA USWDS theme package with Sass, compiled assets, Storybook, and integration guides.
+- **Release:** Active official package, currently pre-1.0; API and class names may change between minor versions. Pin the exact version.
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

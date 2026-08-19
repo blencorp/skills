@@ -2,10 +2,10 @@
   "skill": "pennsylvania-keystone",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Build a Pennsylvania service page from KDS foundations and documented component code.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

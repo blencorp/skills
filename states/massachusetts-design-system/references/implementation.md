@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; tokens, assets, and styles are public, while the complete replacement component implementation is still being released.
+- Release: Tokens, assets, and styles are public, while the complete replacement component implementation is still being released.
 - Delivery model: Independent npm packages for tokens, assets, and shared Sass/utility styles; component packages are incomplete.
 - Package snapshot: `@massds/mds-tokens@2.0.0`, `@massds/mds-assets@1.2.0`, `@massds/mds-styles@1.1.0`
 

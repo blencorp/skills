@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; `@uswds/elements@1.0.0-alpha.6` and the official repository are explicitly pre-release.
+- Release: `@uswds/elements@1.0.0-alpha.6` and the official repository are explicitly pre-release.
 - Delivery model: Alpha web components designed for gradual use alongside USWDS Core.
 - Package snapshot: `@uswds/elements@1.0.0-alpha.6`, `@uswds/uswds@3.14.0`
 

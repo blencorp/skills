@@ -3,26 +3,30 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Conditional; a public source repository exists, but it is small, has no package or formal release, activity is sparse, and its IRS provenance is self-attested (see the sources ledger).
-- Delivery model: Source repository with limited USWDS-compliant component code.
-- Package snapshot: no official package verified
+- Release: Repository created 2026-06-29, last pushed 2026-07-09. The README describes the guide as "a proposal under active review."
+- Delivery model: Page-first design guide — a canonical `irs.css` stylesheet plus base page templates, built on USWDS with the IRS palette and masthead. No build process required.
+- Package snapshot: no official package published.
+- License: no license file present in the repository.
 
 ## Start
 
-- Confirm the repository's provenance with the IRS product owner, then use an audited commit from it within the authorized IRS project; no official npm package was verified.
+- Pin an exact commit from https://github.com/IRS-Public/design and vendor the canonical `irs.css` plus the page template you are starting from.
+- Scaffold whole pages from the base templates rather than assembling isolated components; the guide is organized page-first.
+- Keep the repository's speculative prototypes out of production work — they are exploratory, not part of the codified look.
+- Confirm reuse terms with the IRS product owner, since no license file is published.
 
 ## Integration decisions
 
-- Use only components and files actually present in the repository.
-- Apply USWDS Core for shared behavior only when the IRS source or project architecture supports it.
+- Use only the blocks, recipes, and templates actually present in the repository and its `DESIGN.md`.
+- Apply USWDS Core for shared behavior where the guide builds on it; the IRS layer supplies palette, masthead, and typography.
 - Escalate missing IRS-specific patterns rather than manufacturing them.
 
-Use exact current APIs and markup from https://github.com/irs-user-experience/irs-web-design-system. If the needed pattern is absent, report the upstream gap and keep any proposed extension clearly outside the official system.
+Use exact current markup and CSS from https://github.com/IRS-Public/design. If the needed pattern is absent, report the upstream gap and keep any proposed extension clearly outside the official system.
 
 ## Acceptance checks
 
-- exact upstream package, commit, or asset snapshot is recorded;
-- the owner accepted the release/maintenance risk;
-- custom UI is visibly separated from official APIs;
+- exact upstream commit or asset snapshot is recorded;
+- reuse terms confirmed with the IRS, given the absent license file;
+- custom UI is visibly separated from official templates and blocks;
 - no duplicate scripts or overlapping full stylesheets;
 - automated checks are supplemented by keyboard, screen-reader, zoom/reflow, responsive, and browser testing.

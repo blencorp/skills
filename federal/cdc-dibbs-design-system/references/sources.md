@@ -9,7 +9,7 @@ Retrieved 2026-08-18. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: CDC Data Integration Building Blocks products, not CDC department-wide branding.
-- Release state: Conditional; public official source exists, but there is no standalone package or complete public documentation site.
+- Release: Public official source exists, but there is no standalone package or complete public documentation site.
 - Delivery: Repository-based USWDS configuration, Sass overrides, build setup, and example markup.
 - Registry snapshot: no official package verified.
 - License/terms: Apache-2.0 in official repository metadata.

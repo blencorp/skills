@@ -11,7 +11,7 @@ Retrieved 2026-08-18. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: Incremental USWDS web components. It is not a production replacement for all of USWDS Core.
-- Release state: Conditional; `@uswds/elements@1.0.0-alpha.6` and the official repository are explicitly pre-release.
+- Release: `@uswds/elements@1.0.0-alpha.6` and the official repository are explicitly pre-release.
 - Delivery: Alpha web components designed for gradual use alongside USWDS Core.
 - Registry snapshot: @uswds/elements@1.0.0-alpha.6; @uswds/uswds@3.14.0
 - License/terms: Follow repository and package license files; package metadata does not replace them.

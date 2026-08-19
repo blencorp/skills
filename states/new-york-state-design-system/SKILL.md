@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** New York State digital services. Confirm agency authorization for official NYS branding and fonts.
-- **Release state:** Ready; active official source and packages.
+- **Release:** active official source and packages.
 - **Delivery:** Lit web components, CSS styles, tokens, and Angular directives.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

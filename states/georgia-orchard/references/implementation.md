@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Ready; the official npm package and versioned CDN assets are current. No public source repository was verified.
+- Release: The official npm package and versioned CDN assets are current. No public source repository was verified.
 - Delivery model: npm package with compiled CSS, per-component JavaScript bundles, and agency palette stylesheets; versioned CDN stylesheets; Storybook-style documentation with component examples.
 - Package snapshot: `@georgiagov/orchard@2.14.0`
 

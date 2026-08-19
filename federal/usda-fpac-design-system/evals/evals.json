@@ -2,10 +2,10 @@
   "skill": "usda-fpac-design-system",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Maintain an existing FSA application using its documented design-system assets.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

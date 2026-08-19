@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** JPL public-facing products governed by Explorer 1. Route spacecraft-operations tools to Stellar and NASA-wide modernization work to Horizon when appropriate.
-- **Release state:** Ready; active official repository and published packages.
+- **Release:** active official repository and published packages.
 - **Delivery:** Vue component library plus compiled shared assets for HTML or other frameworks.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

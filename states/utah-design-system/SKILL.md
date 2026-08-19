@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** Utah state-government digital products. Determine whether the statewide header is required for the target surface.
-- **Release state:** Ready; active official repository and packages.
+- **Release:** active official repository and packages.
 - **Delivery:** Sass/CSS, React components, compiled CDN assets, and a separate header package.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

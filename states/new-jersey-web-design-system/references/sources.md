@@ -12,7 +12,7 @@ Retrieved 2026-08-18. Recheck before dependency upgrades or new production adopt
 ## Captured facts
 
 - Scope: New Jersey state-government digital products governed by Grove/NJWDS.
-- Release state: Ready; active official source, npm package, documentation, and CDN.
+- Release: Active official source, npm package, documentation, and CDN.
 - Delivery: USWDS-derived npm package, source release, Sass theme, compiled files, and versioned CDN.
 - Registry snapshot: @newjersey/njwds@2.9.2
 - License/terms: MIT in repository and package metadata.

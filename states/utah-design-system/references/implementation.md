@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; active official repository and packages.
+- Release: Active official repository and packages.
 - Delivery model: Sass/CSS, React components, compiled CDN assets, and a separate header package.
 - Package snapshot: `@utahdts/utah-design-system@5.3.0`, `@utahdts/utah-design-system-header@5.3.0`
 

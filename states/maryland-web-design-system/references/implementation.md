@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Conditional; the current release is pre-1.0 and alpha-tagged, and official documentation says MDWDS is under development.
+- Release: The current release is pre-1.0 and alpha-tagged, and official documentation says MDWDS is under development.
 - Delivery model: Framework-agnostic web components and supporting package assets.
 - Package snapshot: `@maryland-gov/mdwds@0.47.0`
 

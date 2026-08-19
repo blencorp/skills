@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; actively maintained official web and mobile libraries.
+- Release: Actively maintained official web and mobile libraries.
 - Delivery model: Web components with React bindings, CSS/tokens, and a separate native-mobile library.
 - Package snapshot: `@department-of-veterans-affairs/component-library@56.11.0`, `@department-of-veterans-affairs/css-library@0.34.2`, `@department-of-veterans-affairs/mobile-component-library@0.36.3`, `@department-of-veterans-affairs/mobile-tokens@0.23.0`
 

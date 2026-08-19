@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** CMS.gov product surfaces. Other CMS applications may use CMS core or another documented child system.
-- **Release state:** Ready; active package in the CMS Design System monorepo.
+- **Release:** active package in the CMS Design System monorepo.
 - **Delivery:** Branded child-system package consuming CMS Design System core.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

@@ -2,10 +2,10 @@
   "skill": "missouri-gov-design-system",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Build a Missouri agency page from the official MO.gov v5 template and components.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

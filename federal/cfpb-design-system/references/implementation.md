@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Conditional; active official core and React repositories, but upstream describes both as work in progress and warns that interfaces will change.
+- Release: Active official core and React repositories, but upstream describes both as work in progress and warns that interfaces will change.
 - Delivery model: Core HTML/CSS/JavaScript and a separate React/Storybook package.
 - Package snapshot: `@cfpb/cfpb-design-system@5.10.0`, `@cfpb/design-system-react@2.0.2`
 

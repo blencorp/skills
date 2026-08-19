@@ -13,7 +13,7 @@ The one-time-deliverable handoff language ("the agency takes full ownership … 
 ## Captured facts
 
 - Scope: Texas state-agency websites. Confirm authorization and required agency branding before implementation.
-- Release state: Conditional; complete version 1.0.0 reference delivery from May 2026 — a one-time deliverable, not a continuously supported package, with the adopting agency owning maintenance after handoff.
+- Release: Complete version 1.0.0 reference delivery from May 2026 — a one-time deliverable, not a continuously supported package, with the adopting agency owning maintenance after handoff.
 - Delivery: Plain HTML, `design-system.css`, optional `design-system.js`, CSS custom properties, and Figma resources; no framework or build step required.
 - Registry snapshot: no official package verified.
 - License/terms: No separate package license was verified. Use official distributed assets under their stated terms and do not redistribute Texas marks as original work.

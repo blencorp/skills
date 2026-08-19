@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** Login.gov-owned identity and authentication experiences. Do not apply Login.gov branding merely because a service uses authentication.
-- **Release state:** Ready; active official package and repository.
+- **Release:** active official package and repository.
 - **Delivery:** USWDS-compatible Sass, JavaScript, fonts, images, and component extensions.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

@@ -84,7 +84,7 @@ for (const entry of roster) {
     if (!fs.existsSync(ref)) fail(entry.name, `missing linked reference ${match[1]}`);
   }
 
-  if (entry.status !== "router") {
+  if (entry.type !== "router") {
     const implementation = path.join(dir, "references", "implementation.md");
     const sources = path.join(dir, "references", "sources.md");
     const evals = path.join(dir, "evals", "evals.json");
@@ -120,11 +120,6 @@ for (const entry of roster) {
     }
   }
 
-  if (entry.status === "conditional") {
-    const gateLine = skill.split("\n").findIndex(line => line.includes("Adoption gate:"));
-    if (gateLine === -1) fail(entry.name, "conditional skill lacks an adoption gate");
-    else if (gateLine > 12) fail(entry.name, "adoption gate must be stated near the top of SKILL.md");
-  }
 }
 
 if (warnings.length) {
@@ -137,7 +132,6 @@ if (errors.length) {
   process.exit(1);
 }
 
-const ready = roster.filter(entry => entry.status === "ready").length;
-const conditional = roster.filter(entry => entry.status === "conditional").length;
-const routers = roster.filter(entry => entry.status === "router").length;
-console.log(`Validated ${roster.length} government skills: ${ready} ready, ${conditional} conditional, ${routers} router.`);
+const implementations = roster.filter(entry => entry.type === "implementation").length;
+const routers = roster.filter(entry => entry.type === "router").length;
+console.log(`Validated ${roster.length} government skills: ${implementations} implementation, ${routers} router.`);

@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; active official source, npm package, documentation, and CDN.
+- Release: Active official source, npm package, documentation, and CDN.
 - Delivery model: USWDS-derived npm package, source release, Sass theme, compiled files, and versioned CDN.
 - Package snapshot: `@newjersey/njwds@2.9.2`
 

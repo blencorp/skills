@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; active public source and documentation, but product-specific and not distributed as an independent package.
+- Release: Active public source and documentation, but product-specific and not distributed as an independent package.
 - Delivery model: Source repository and generated pattern library coupled to the FEC CMS assets.
 - Package snapshot: no official package verified
 

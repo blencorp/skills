@@ -1,17 +1,15 @@
 ---
 name: rhode-island-pattern-library
-description: Maintains Rhode Island eCMS/Quahog interfaces with the official public Pattern Lab and source repository. Use for Rhode Island products after reviewing dependency age and maintenance status; do not assume the library is a current statewide package.
+description: Maintains Rhode Island eCMS/Quahog interfaces with the official public Pattern Lab and source repository. Use for Rhode Island products; check dependency age and maintenance status, and do not assume the library is a current statewide package.
 ---
 
 # Rhode Island eCMS Pattern Library
 
-> Adoption gate: Conditional; public source exists and is not archived, but maintenance freshness and statewide support were not confirmed.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -26,10 +24,11 @@ description: Maintains Rhode Island eCMS/Quahog interfaces with the official pub
 
 - **Scope:** Rhode Island eCMS products represented by the public Pattern Lab and official source.
 - **Delivery:** Pattern Lab source repository and generated public pattern library.
+- **Release:** Public source exists and is not archived; statewide support and maintenance freshness were not confirmed.
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

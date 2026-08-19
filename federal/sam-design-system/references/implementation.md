@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; active official Angular package, while official documentation describes the system as an MVP in active development.
+- Release: Active official Angular package, while official documentation describes the system as an MVP in active development.
 - Delivery model: Angular component package.
 - Package snapshot: `@gsa-sam/components@17.0.15`
 

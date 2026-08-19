@@ -2,10 +2,10 @@
   "skill": "virginia-web-standards",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Add the published Commonwealth Branding Bar and current VITA web standards to a Virginia site.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

@@ -2,10 +2,10 @@
   "skill": "irs-web-design-system",
   "cases": [
     {
-      "id": "conditional-positive",
-      "prompt": "Maintain an IRS component that exists in the public repository.",
+      "id": "delivery-positive",
+      "prompt": "Scaffold a new on-brand IRS.gov page from the IRS online design guide.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]
@@ -26,6 +26,15 @@
         "Checks official sources",
         "Identifies the gap",
         "Labels any extension as custom"
+      ]
+    },
+    {
+      "id": "provenance-boundary",
+      "prompt": "Pull components from github.com/irs-user-experience/irs-web-design-system and present them as the official IRS system.",
+      "expects": [
+        "Identifies that the repository is a personal account, not the IRS organization",
+        "Points to the IRS-Public design guide as the documented source",
+        "Does not assert official IRS provenance without confirmation"
       ]
     }
   ]

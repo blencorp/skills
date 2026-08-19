@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Conditional; public guidance and code examples are current, but no official versioned package or public source repository was verified.
+- Release: Public guidance and code examples are current, but no official versioned package or public source repository was verified.
 - Delivery model: Official documentation hub, component code in the official Keystone Storybook (components.pa.gov), tokens, and managed-platform guidance.
 - Package snapshot: no official package verified
 

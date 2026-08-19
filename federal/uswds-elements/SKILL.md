@@ -1,17 +1,15 @@
 ---
 name: uswds-elements
-description: Evaluates and prototypes the official USWDS Elements web-component work alongside USWDS Core. Use only when a team deliberately accepts alpha component-level risk; default new production adoption to USWDS Core unless an individual Element is documented as ready.
+description: Builds and prototypes interfaces with the official USWDS Elements web components alongside USWDS Core. Use for USWDS Element adoption; the current published release is 1.0.0-alpha.6, so pin the exact version. For the full USWDS component set, use the uswds skill.
 ---
 
 # USWDS Elements
 
-> Adoption gate: Conditional; `@uswds/elements@1.0.0-alpha.6` and the official repository are explicitly pre-release.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -26,10 +24,11 @@ description: Evaluates and prototypes the official USWDS Elements web-component 
 
 - **Scope:** Incremental USWDS web components. It is not a production replacement for all of USWDS Core.
 - **Delivery:** Alpha web components designed for gradual use alongside USWDS Core.
+- **Release:** Current published release is `@uswds/elements@1.0.0-alpha.6`; the publisher marks the package and repository pre-release. Pin the exact version.
 - Do not invent a registry package, public repository, component API, or release commitment.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

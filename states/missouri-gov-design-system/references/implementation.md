@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; public templates and assets exist, but there is no versioned package or verified source repository.
+- Release: Public templates and assets exist, but there is no versioned package or verified source repository.
 - Delivery model: Hosted customized Bootstrap assets, page templates, and component examples.
 - Package snapshot: no official package verified
 

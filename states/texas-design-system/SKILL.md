@@ -1,11 +1,9 @@
 ---
 name: texas-design-system
-description: Builds Texas state-agency websites with the official Texas Design System's copy-ready HTML, CSS tokens, JavaScript interactions, templates, and txds-prefixed BEM components. Use for authorized Texas agency sites and preserve its reference-delivery limitation.
+description: Builds Texas state-agency websites with the official Texas Design System's copy-ready HTML, CSS tokens, JavaScript interactions, templates, and txds-prefixed BEM components. Use for authorized Texas agency sites; version 1.0.0 is a one-time reference delivery, and the adopting agency owns maintenance after handoff.
 ---
 
 # Texas Design System
-
-> Adoption gate: Conditional; version 1.0.0 (May 2026) is a complete one-time reference delivery — after handoff the adopting agency owns maintenance, evolution, and distribution. Accept that ownership or route to a continuously supported system.
 
 Build within the system's documented scope and delivery model.
 
@@ -28,12 +26,12 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** Texas state-agency websites. Confirm authorization and required agency branding before implementation.
-- **Release state:** Conditional; complete version 1.0.0 reference delivery from May 2026 — a one-time deliverable, not a continuously supported package, with the adopting agency owning maintenance after handoff.
+- **Release:** Complete version 1.0.0 reference delivery from May 2026 — a one-time deliverable rather than a continuously supported package; the adopting agency owns maintenance after handoff.
 - **Delivery:** Plain HTML, `design-system.css`, optional `design-system.js`, CSS custom properties, and Figma resources; no framework or build step required.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.
 - A passing component example does not prove the completed service conforms to WCAG, Section 508, the ADA, or local policy.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

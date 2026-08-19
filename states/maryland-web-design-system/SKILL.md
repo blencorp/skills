@@ -1,11 +1,9 @@
 ---
 name: maryland-web-design-system
-description: Builds Maryland government interfaces with the official Maryland Web Design System package, web components, statewide alerts, foundations, and accessibility guidance. Use for Maryland state services, not the unrelated University of Maryland design system, and retain the active-development warning.
+description: Builds Maryland government interfaces with the official Maryland Web Design System package, web components, statewide alerts, foundations, and accessibility guidance. Use for Maryland state services, not the unrelated University of Maryland design system; the current release is alpha-tagged, so pin the exact version.
 ---
 
 # Maryland Web Design System
-
-> Adoption gate: Conditional; the only published release is pre-1.0 and alpha-tagged, and official documentation says MDWDS is under development. Pin the exact version and accept interface churn, or route to a supported system.
 
 Build within the system's documented scope and delivery model.
 
@@ -28,12 +26,12 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** Maryland state-government digital services. Do not confuse MDWDS with the unrelated University of Maryland design system.
-- **Release state:** Conditional; the current release is pre-1.0 and alpha-tagged, and official documentation says MDWDS is under development.
+- **Release:** The current release is pre-1.0 and alpha-tagged; official documentation says MDWDS is under development. Pin the exact version.
 - **Delivery:** Framework-agnostic web components and supporting package assets.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.
 - A passing component example does not prove the completed service conforms to WCAG, Section 508, the ADA, or local policy.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

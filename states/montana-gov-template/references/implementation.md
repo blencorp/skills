@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; public hosted implementation instructions exist, but no package, source repository, or versioned release was verified.
+- Release: Public hosted implementation instructions exist, but no package, source repository, or versioned release was verified.
 - Delivery model: SITSD-hosted CSS/JavaScript and injected header/footer assets.
 - Package snapshot: no official package verified
 

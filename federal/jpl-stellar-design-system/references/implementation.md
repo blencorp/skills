@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; official packages are current, but framework support is limited to React 18 and Svelte 4 in upstream guidance.
+- Release: Official packages are current, but framework support is limited to React 18 and Svelte 4 in upstream guidance.
 - Delivery model: Separate React and Svelte packages derived from shadcn-based implementations.
 - Package snapshot: `@nasa-jpl/stellar-react@2.1.10`, `@nasa-jpl/stellar-svelte@2.1.10`
 

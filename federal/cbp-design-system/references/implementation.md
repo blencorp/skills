@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; official source and packages are explicitly beta.
+- Release: Official source and packages are explicitly beta.
 - Delivery model: Web components as source of truth, with generated React components for React 18 and lower.
 - Package snapshot: `@cbpds/web-components@0.9.0-beta.2`, `@cbpds/react-components@0.9.0-beta.2`
 

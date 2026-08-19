@@ -2,10 +2,10 @@
   "skill": "cdc-dibbs-design-system",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Maintain a DIBBs page using its existing Sass configuration.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

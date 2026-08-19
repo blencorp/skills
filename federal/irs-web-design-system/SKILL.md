@@ -1,17 +1,15 @@
 ---
 name: irs-web-design-system
-description: Maintains IRS interfaces using the limited public IRS Web Design System source repository. Use only for IRS-governed work where the small USWDS-compliant component set is sufficient; verify the repository's IRS provenance and do not infer missing packages, components, or support.
+description: Builds IRS web interfaces from the IRS online design guide published by the IRS GitHub organization — a USWDS-based page-first guide with a canonical stylesheet and page templates. Use for IRS-governed work; the guide describes itself as a proposal under active review and publishes no package.
 ---
 
 # IRS Web Design System
 
-> Adoption gate: Conditional; a public source repository exists, but it is small, has no package or formal release, activity is sparse, and its IRS provenance is self-attested — it is hosted on a personal GitHub account, not a government-controlled organization. Verify provenance; see the sources ledger for last-verified activity.
-
 ## Before editing
 
-1. Confirm the product is inside this system's scope and the owner accepts the stated release or maintenance risk.
+1. Confirm the product is inside this system's scope.
 2. Read [references/implementation.md](references/implementation.md) before installing, copying, or changing upstream assets.
-3. Read [references/sources.md](references/sources.md) for provenance, version, license, and the reason this skill is Conditional.
+3. Read [references/sources.md](references/sources.md) for provenance, version, and license.
 4. Inspect and preserve the target project's framework, package manager, asset pipeline, and accessibility tests.
 
 ## Workflow
@@ -24,12 +22,15 @@ description: Maintains IRS interfaces using the limited public IRS Web Design Sy
 
 ## Boundaries
 
-- **Scope:** IRS-governed web interfaces. The public repository is not a complete department-wide distribution.
-- **Delivery:** Source repository with limited USWDS-compliant component code.
-- Do not invent a registry package, public repository, component API, or release commitment.
+- **Scope:** IRS-governed web interfaces. The published material is a design guide for IRS.gov surfaces, not a complete department-wide component distribution.
+- **Delivery:** Page-first guide from `IRS-Public/design`: a canonical `irs.css` stylesheet plus base page templates mirroring live IRS.gov surfaces, built on USWDS with the IRS palette and masthead. No npm package is published and no build step is required.
+- **Release:** The guide describes itself as a proposal under active review. Pin an exact commit.
+- **License:** No license file is present in the repository. Confirm reuse terms with the IRS before redistributing assets.
+- Do not invent a registry package, component API, or release commitment.
+- A separate repository, `irs-user-experience/irs-web-design-system`, is hosted on a personal GitHub account rather than the IRS organization, and has not been updated since April 2025. Do not treat it as an official IRS distribution or merge its code with the design guide without confirming provenance.
 - Do not imply that a beta, hosted asset, code example, or product-specific repository is government-wide.
 - Do not claim legal or WCAG conformance for the completed service solely from component use.
-- If the adoption gate cannot be accepted, route to the governing stable system or stop and explain the gap.
+- If this system does not fit the product's requirements, route to the governing system or stop and explain the gap.
 
 ## References
 

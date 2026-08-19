@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; official standards and hosted resources are public, but there is no versioned package or source repository.
+- Release: Official standards and hosted resources are public, but there is no versioned package or source repository.
 - Delivery model: State-hosted CSS/resources and prescribed HTML components.
 - Package snapshot: no official package verified
 

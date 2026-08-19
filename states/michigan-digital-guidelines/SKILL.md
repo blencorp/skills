@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** State of Michigan digital products governed by Digital Guidelines.
-- **Release state:** Ready; current public npm packages and documentation.
+- **Release:** current public npm packages and documentation.
 - **Delivery:** Stencil web components plus React and Angular wrapper packages.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

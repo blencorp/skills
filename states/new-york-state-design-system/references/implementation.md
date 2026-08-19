@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; active official source and packages.
+- Release: Active official source and packages.
 - Delivery model: Lit web components, CSS styles, tokens, and Angular directives.
 - Package snapshot: `@nysds/components@1.20.0`, `@nysds/styles@1.20.0`, `@nysds/tokens@1.20.0`, `@nysds/angular@1.18.2`
 

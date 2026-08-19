@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; current public npm packages and documentation.
+- Release: Current public npm packages and documentation.
 - Delivery model: Stencil web components plus React and Angular wrapper packages.
 - Package snapshot: `@migov/digital-guidelines-core@5.5.0`, `@migov/digital-guidelines-core-react@5.5.0`, `@migov/digital-guidelines-core-angular@5.5.0`
 

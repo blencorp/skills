@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Conditional; public official source exists, but there is no standalone package or complete public documentation site.
+- Release: Public official source exists, but there is no standalone package or complete public documentation site.
 - Delivery model: Repository-based USWDS configuration, Sass overrides, build setup, and example markup.
 - Package snapshot: no official package verified
 

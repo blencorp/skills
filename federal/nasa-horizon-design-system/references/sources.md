@@ -11,7 +11,7 @@ Retrieved 2026-08-18. Recheck before every new production adoption.
 ## Captured facts
 
 - Scope: NASA-branded sites aligned to NASA's web modernization and consolidation strategy. Interagency and non-NASA sites should use USWDS.
-- Release state: Conditional; active official package, explicitly pre-1.0.
+- Release: Active official package, explicitly pre-1.0.
 - Delivery: NASA USWDS theme package with Sass, compiled assets, Storybook, and integration guides.
 - Registry snapshot: @nasa-hds/core@0.9.0; @uswds/uswds@3.14.0
 - License/terms: CC0-1.0 in package metadata; preserve NASA branding restrictions and repository notices.

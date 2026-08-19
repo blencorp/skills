@@ -2,10 +2,10 @@
   "skill": "massachusetts-design-system",
   "cases": [
     {
-      "id": "conditional-positive",
+      "id": "delivery-positive",
       "prompt": "Start a new Massachusetts app with current MDS tokens, assets, and styles.",
       "expects": [
-        "States the adoption gate",
+        "States the documented delivery path",
         "Uses only public official implementation",
         "Pins the upstream snapshot"
       ]

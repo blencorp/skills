@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; Pelican 2 is current and the official package and repository are active.
+- Release: Pelican 2 is current and the official package and repository are active.
 - Delivery model: npm package with compiled CSS/JavaScript and Bootstrap dependencies.
 - Package snapshot: `@la-ots/pelican@2.3.5`, `bootstrap`, `@popperjs/core`
 

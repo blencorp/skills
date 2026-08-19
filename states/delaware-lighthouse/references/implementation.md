@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-19
-- Release state: Conditional; official documentation, versioned hosted CDN assets, and code samples exist, but no npm package or public source repository was verified.
+- Release: Official documentation, versioned hosted CDN assets, and code samples exist, but no npm package or public source repository was verified.
 - Delivery model: State-hosted versioned CDN CSS/JS with a Bootstrap dependency, copy-ready HTML components, WordPress-oriented templates, downloadable assets, and official documentation.
 - Package snapshot: no npm package verified; hosted CDN release 1.2
 

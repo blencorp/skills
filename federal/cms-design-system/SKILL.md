@@ -26,7 +26,7 @@ Build within the system's documented scope and delivery model.
 ## Boundaries
 
 - **Scope:** CMS product interfaces using the core theme. Route HealthCare.gov, Medicare.gov, and CMS.gov work to their child-system skills.
-- **Release state:** Ready; active official monorepo and npm package.
+- **Release:** active official monorepo and npm package.
 - **Delivery:** CSS, JavaScript, React components, utility classes, tokens, and grid framework.
 - Do not invent component APIs, tokens, package names, or compliance claims.
 - Do not import another jurisdiction's branding to fill a gap.

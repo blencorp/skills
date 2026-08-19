@@ -3,7 +3,7 @@
 ## Verified snapshot
 
 - Verified: 2026-08-18
-- Release state: Ready; active official monorepo and npm package.
+- Release: Active official monorepo and npm package.
 - Delivery model: CSS, JavaScript, React components, utility classes, tokens, and grid framework.
 - Package snapshot: `@cmsgov/design-system@18.1.0`
 
