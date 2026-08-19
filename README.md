@@ -1,109 +1,144 @@
 <video src="assets/introduction.mp4" controls="controls" style="max-width: 730px;"></video>
 
-# BLEN's Public Sector Skills
+# BLEN Public Sector Skills
 
-Agent skills for public sector development — USWDS, USMDS, and more.
+Open-source agent skills for building with publicly available U.S. federal and state government design systems.
+
+The collection contains:
+
+- **15 Ready implementation skills** backed by current public packages, source, or complete distributions;
+- **21 Conditional implementation skills** with explicit beta, pre-1.0, work-in-progress, product-scope, hosted-delivery, completeness, or maintenance gates;
+- **1 complete router** covering all 50 states, the District of Columbia, five inhabited territories, and the researched federal landscape.
+
+The skills use the common `SKILL.md` format supported by OpenAI and Anthropic. They are designed to fail closed: when official public material does not define a component, token, package, or implementation, the skill says so instead of inventing one.
+
+Federal implementation skills live in [`federal/`](federal/) and state implementation skills live in [`states/`](states/). The existing [`uswds`](uswds/), [`usmds`](usmds/), and [`gsa-mas`](gsa-mas/) directories remain at the repository root, along with the cross-jurisdiction [`public-sector-design-systems`](public-sector-design-systems/) router.
 
 ## Install
 
-```bash
-# Install a specific skill
-npx skills add blencorp/skills --skill uswds
-npx skills add blencorp/skills --skill usmds
-npx skills add blencorp/skills --skill gsa-mas
+Install the router first when you do not know which system governs a product:
 
-# Install all skills
-npx skills add blencorp/skills
+```bash
+npx skills add blencorp/skills --skill public-sector-design-systems
 ```
 
-## Skills
-
-### USWDS — U.S. Web Design System
-
-A comprehensive skill for building accessible web interfaces with [USWDS v3](https://designsystem.digital.gov/) and [@trussworks/react-uswds](https://github.com/trussworks/react-uswds).
+Install a focused implementation skill:
 
 ```bash
+npx skills add blencorp/skills --full-depth --skill maryland-web-design-system
+npx skills add blencorp/skills --full-depth --skill cms-design-system
 npx skills add blencorp/skills --skill uswds
 ```
 
-**Covers:**
-- 47 components — headers, footers, forms, navigation, modals, tables, cards, and more
-- 12-column responsive grid system and layout patterns
-- Design tokens — color, typography, spacing
-- Sass theming and customization
-- Utility classes
-- Section 508 / WCAG 2.1 AA accessibility patterns
-
-**Reference files included:**
-
-| File | Description |
-|------|-------------|
-| `components.md` | All USWDS and @trussworks/react-uswds components with imports and props |
-| `design-tokens.md` | Color, typography, and spacing token values |
-| `grid-layout.md` | Grid system, containers, breakpoints, and layout patterns |
-| `sass-theming.md` | Theme customization via Sass settings variables |
-| `utilities.md` | Complete utility class reference by category |
-
----
-
-### USMDS — U.S. Mobile Design System
-
-A skill for building accessible React Native mobile applications with the [U.S. Mobile Design System](https://github.com/blencorp/react-native-usmds) (USMDS) by blencorp, using NativeWind for styling.
+Install the full repository:
 
 ```bash
-npx skills add blencorp/skills --skill usmds
+npx skills add blencorp/skills --full-depth
 ```
 
-**Covers:**
-- React Native components — Alert, Button, Card, Accordion, AlertDialog, Badge, Avatar, TextInput, Checkbox, RadioButton, Select, Textarea, and more
-- NativeWind (Tailwind CSS for React Native) styling patterns
-- HSL-based theme token system with light/dark mode support
-- Project setup — Metro, Babel, and Tailwind configuration
-- WAI-ARIA accessibility patterns for mobile
-- PortalHost setup for overlay components
+The `--full-depth` flag is required for skills inside `federal/` and `states/`. Root skills remain discoverable without it.
 
-**Reference files included:**
+## Ready systems
 
-| File | Description |
-|------|-------------|
-| `components.md` | All USMDS components with imports, props, and usage examples |
-| `setup.md` | Project initialization, Metro/Babel/Tailwind configuration |
-| `theming.md` | Design tokens, color system, dark mode, and custom themes |
+| Level | System | Skill |
+|---|---|---|
+| Federal | U.S. Web Design System Core | [`uswds`](uswds/) |
+| Federal | Login.gov Identity Design System | [`login-gov-design-system`](federal/login-gov-design-system/) |
+| Federal | CMS Design System Core | [`cms-design-system`](federal/cms-design-system/) |
+| Federal | HealthCare.gov child system | [`healthcare-gov-design-system`](federal/healthcare-gov-design-system/) |
+| Federal | Medicare.gov child system | [`medicare-gov-design-system`](federal/medicare-gov-design-system/) |
+| Federal | CMS.gov child system | [`cms-gov-design-system`](federal/cms-gov-design-system/) |
+| Federal | VA Design System, web and native mobile | [`va-design-system`](federal/va-design-system/) |
+| Federal | NASA JPL Explorer 1 | [`jpl-explorer-1`](federal/jpl-explorer-1/) |
+| Federal | NCI Design System | [`nci-design-system`](federal/nci-design-system/) |
+| State | Georgia Orchard | [`georgia-orchard`](states/georgia-orchard/) |
+| State | Louisiana Pelican | [`louisiana-pelican`](states/louisiana-pelican/) |
+| State | Michigan Digital Guidelines | [`michigan-digital-guidelines`](states/michigan-digital-guidelines/) |
+| State | New Jersey Grove/NJWDS | [`new-jersey-web-design-system`](states/new-jersey-web-design-system/) |
+| State | New York State Design System | [`new-york-state-design-system`](states/new-york-state-design-system/) |
+| State | Utah Design System | [`utah-design-system`](states/utah-design-system/) |
 
----
+"Ready" does not mean risk-free. Georgia's package ships compiled assets without a public source repository, and every consuming service still needs accessibility and product testing.
 
-### GSA MAS — Multiple Award Schedule Application Assistant
+## Conditional systems
 
-A skill that guides first-time applicants through a complete [GSA Multiple Award Schedule](https://www.gsa.gov/buy-through-us/purchasing-programs/multiple-award-schedule) (MAS) application, focused on SIN 54151S (IT Professional Services) — from eligibility check to eOffer submission and post-award obligations.
+| Level | System | Skill | Adoption gate |
+|---|---|---|---|
+| Federal | USWDS Elements | [`uswds-elements`](federal/uswds-elements/) | Alpha; component maturity varies |
+| Federal | CFPB Design System | [`cfpb-design-system`](federal/cfpb-design-system/) | Upstream work-in-progress; interfaces will change |
+| Federal | GSA TTS A U.S. Design System | [`gsa-usds`](federal/gsa-usds/) | Git-installed React package |
+| Federal | SAM Design System | [`sam-design-system`](federal/sam-design-system/) | Product-specific Angular/MVP |
+| Federal | FEC Pattern Library | [`fec-pattern-library`](federal/fec-pattern-library/) | Coupled to FEC CMS |
+| Federal | NASA Horizon | [`nasa-horizon-design-system`](federal/nasa-horizon-design-system/) | NASA-only, pre-1.0 |
+| Federal | NASA JPL Stellar | [`jpl-stellar-design-system`](federal/jpl-stellar-design-system/) | Mission-operations and framework limits |
+| Federal | CDC DIBBs | [`cdc-dibbs-design-system`](federal/cdc-dibbs-design-system/) | Product source, no package |
+| Federal | CBP Design System | [`cbp-design-system`](federal/cbp-design-system/) | Beta |
+| Federal | IRS Web Design System | [`irs-web-design-system`](federal/irs-web-design-system/) | Limited public source |
+| Federal | USDA FPAC/FSA | [`usda-fpac-design-system`](federal/usda-fpac-design-system/) | Older product-specific implementation |
+| State | Alaska Look and Feel | [`alaska-look-and-feel`](states/alaska-look-and-feel/) | Hosted assets; official scope excludes apps |
+| State | Delaware Lighthouse | [`delaware-lighthouse`](states/delaware-lighthouse/) | Versioned hosted CDN and copy-ready HTML/WordPress, no package |
+| State | Maryland Web Design System | [`maryland-web-design-system`](states/maryland-web-design-system/) | Pre-1.0 alpha; under development |
+| State | Massachusetts Design System | [`massachusetts-design-system`](states/massachusetts-design-system/) | Foundations released; components incomplete |
+| State | Missouri.gov v5 | [`missouri-gov-design-system`](states/missouri-gov-design-system/) | Hosted customized Bootstrap assets |
+| State | Montana.gov Template | [`montana-gov-template`](states/montana-gov-template/) | Hosted template service |
+| State | Pennsylvania Keystone | [`pennsylvania-keystone`](states/pennsylvania-keystone/) | Public code examples, no package/source |
+| State | Rhode Island eCMS/Quahog | [`rhode-island-pattern-library`](states/rhode-island-pattern-library/) | Maintenance status needs confirmation |
+| State | Texas Design System | [`texas-design-system`](states/texas-design-system/) | One-time v1.0 reference delivery; agency owns maintenance |
+| State | Virginia Web Standards | [`virginia-web-standards`](states/virginia-web-standards/) | Branding bar only; broader system unreleased |
+
+## Complete jurisdiction routing
+
+Use [`public-sector-design-systems`](public-sector-design-systems/) to select the correct system and avoid misclassifying guidance or internal platforms as reusable code.
+
+The router includes every state, DC, and the five inhabited territories. It also records guidance-only, evidence-only, legacy, superseded, and not-found results. Those jurisdictions intentionally do not receive component skills until sufficient official implementation becomes public.
+
+See:
+
+- [Final government design-system inventory](docs/government-design-systems.md)
+- [Machine-readable implementation roster](docs/government-skill-roster.json)
+- [Cross-platform authoring standard](docs/government-skill-authoring-standard.md)
+- [Independent Claude/Fable research retained for provenance](docs/research/design-systems-landscape.md)
+
+## Skill structure
+
+Each implementation skill contains:
+
+```text
+federal/ or states/
+└── system-name/
+    ├── SKILL.md
+    ├── references/
+    │   ├── implementation.md
+    │   └── sources.md
+    └── evals/
+        └── evals.json
+```
+
+The source ledger isolates changing versions, release states, URLs, and license notes from the concise runtime instructions. Conditional skills place their adoption gate directly in `SKILL.md`.
+
+## Validate
+
+Run the collection validator:
 
 ```bash
-npx skills add blencorp/skills --skill gsa-mas
+node scripts/validate-government-skills.mjs
 ```
 
-**Covers:**
-- Eligibility check and readiness assessment (2-year history, financials, past performance, NAICS alignment)
-- Registrations and prerequisites — SAM.gov/UEI, FAS ID with MFA, Pathways to Success training
-- Technical proposal drafting across all four evaluation factors, with 10,000-character limit tracking
-- Past performance — CPARS, Past Performance Questionnaires (PPQs), and permitted alternative formats
-- Pricing under the current TDR regime — interactive labor category collection, EPA clause selection, commercial price list
-- Final assembly checklist, cross-document consistency checks, and eOffer submission guidance
-- Post-award obligations — minimum sales thresholds, monthly TDR reporting, IFF, compliance requirements
-- Tracks solicitation Refresh changes (Refresh 30–32) and re-verifies current requirements via web search
+Then run the installed OpenAI skill validator for each skill directory. Structural validation does not replace behavioral testing with the model families and application stacks intended for release.
 
-**Evals included:** 42 evaluation cases covering every phase, plus behavioral checks (phase skipping, pushing back on weak inputs, catching pricing errors, correcting outdated requirements).
+Confirm nested installer discovery after changing the repository layout:
 
-## About skills.sh
+```bash
+npx skills add . --list --full-depth
+```
 
-[skills.sh](https://skills.sh) is a registry for sharing agent skills for Claude Code. Skills provide domain-specific knowledge that helps Claude write better code for specialized frameworks and tools.
+## Other public-sector skills
+
+- [`usmds`](usmds/) — BLEN's U.S. Mobile Design System for React Native. It is not an official federal or state system and is not counted above.
+- [`gsa-mas`](gsa-mas/) — GSA Multiple Award Schedule application assistant.
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE) for details.
+This repository is Apache 2.0 licensed. Upstream design systems retain their own licenses, terms, notices, and government mark restrictions. The skills link to and describe upstream systems; they do not relicense those systems.
 
----
-
-Built with ❤️ by [BLEN, Inc](https://www.blencorp.com).
-
-## About BLEN
-
-BLEN, Inc is a digital services company that provides Emerging Technology (ML/AI, RPA), Digital Modernization (Legacy to Cloud), and Human-Centered Web/Mobile Design and Development.
+Built by [BLEN, Inc.](https://www.blencorp.com).

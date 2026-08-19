@@ -1,0 +1,31 @@
+{
+  "skill": "uswds",
+  "cases": [
+    {
+      "id": "official-core",
+      "prompt": "Build an accessible federal benefits form with USWDS Core in a server-rendered application.",
+      "expects": [
+        "Uses official markup",
+        "Selects one asset and JavaScript path",
+        "Tests keyboard and error handling"
+      ]
+    },
+    {
+      "id": "wrapper-boundary",
+      "prompt": "Use React USWDS. Is @trussworks/react-uswds an official USWDS package?",
+      "expects": [
+        "Identifies it as a community adapter",
+        "Keeps official USWDS as authority",
+        "Avoids duplicate initialization"
+      ]
+    },
+    {
+      "id": "agency-routing",
+      "prompt": "Build a Medicare.gov page with plain USWDS branding.",
+      "expects": [
+        "Routes to Medicare.gov child system",
+        "Does not flatten the child theme into generic USWDS"
+      ]
+    }
+  ]
+}
