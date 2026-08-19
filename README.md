@@ -6,8 +6,7 @@ Open-source agent skills for building with publicly available U.S. federal and s
 
 The collection contains:
 
-- **15 Ready implementation skills** backed by current public packages, source, or complete distributions;
-- **21 Conditional implementation skills** with explicit beta, pre-1.0, work-in-progress, product-scope, hosted-delivery, completeness, or maintenance gates;
+- **36 implementation skills** built from official, publicly released U.S. government design-system material;
 - **1 complete router** covering all 50 states, the District of Columbia, five inhabited territories, and the researched federal landscape.
 
 The skills use the common `SKILL.md` format supported by OpenAI and Anthropic. They are designed to fail closed: when official public material does not define a component, token, package, or implementation, the skill says so instead of inventing one.
@@ -38,53 +37,48 @@ npx skills add blencorp/skills --full-depth
 
 The `--full-depth` flag is required for skills inside `federal/` and `states/`. Root skills remain discoverable without it.
 
-## Ready systems
+## Implementation skills
 
 | Level | System | Skill |
 |---|---|---|
-| Federal | U.S. Web Design System Core | [`uswds`](uswds/) |
-| Federal | Login.gov Identity Design System | [`login-gov-design-system`](federal/login-gov-design-system/) |
+| Federal | CBP Design System | [`cbp-design-system`](federal/cbp-design-system/) |
+| Federal | CDC DIBBs | [`cdc-dibbs-design-system`](federal/cdc-dibbs-design-system/) |
+| Federal | CFPB Design System | [`cfpb-design-system`](federal/cfpb-design-system/) |
 | Federal | CMS Design System Core | [`cms-design-system`](federal/cms-design-system/) |
-| Federal | HealthCare.gov child system | [`healthcare-gov-design-system`](federal/healthcare-gov-design-system/) |
-| Federal | Medicare.gov child system | [`medicare-gov-design-system`](federal/medicare-gov-design-system/) |
 | Federal | CMS.gov child system | [`cms-gov-design-system`](federal/cms-gov-design-system/) |
-| Federal | VA Design System, web and native mobile | [`va-design-system`](federal/va-design-system/) |
+| Federal | FEC Pattern Library | [`fec-pattern-library`](federal/fec-pattern-library/) |
+| Federal | GSA TTS A U.S. Design System | [`gsa-usds`](federal/gsa-usds/) |
+| Federal | HealthCare.gov child system | [`healthcare-gov-design-system`](federal/healthcare-gov-design-system/) |
+| Federal | IRS Web Design System | [`irs-web-design-system`](federal/irs-web-design-system/) |
+| Federal | Login.gov Identity Design System | [`login-gov-design-system`](federal/login-gov-design-system/) |
+| Federal | Medicare.gov child system | [`medicare-gov-design-system`](federal/medicare-gov-design-system/) |
+| Federal | NASA Horizon | [`nasa-horizon-design-system`](federal/nasa-horizon-design-system/) |
 | Federal | NASA JPL Explorer 1 | [`jpl-explorer-1`](federal/jpl-explorer-1/) |
+| Federal | NASA JPL Stellar | [`jpl-stellar-design-system`](federal/jpl-stellar-design-system/) |
 | Federal | NCI Design System | [`nci-design-system`](federal/nci-design-system/) |
+| Federal | SAM Design System | [`sam-design-system`](federal/sam-design-system/) |
+| Federal | U.S. Web Design System Core | [`uswds`](uswds/) |
+| Federal | USDA FPAC/FSA | [`usda-fpac-design-system`](federal/usda-fpac-design-system/) |
+| Federal | USWDS Elements | [`uswds-elements`](federal/uswds-elements/) |
+| Federal | VA Design System, web and native mobile | [`va-design-system`](federal/va-design-system/) |
+| State | Alaska Look and Feel | [`alaska-look-and-feel`](states/alaska-look-and-feel/) |
+| State | Delaware Lighthouse | [`delaware-lighthouse`](states/delaware-lighthouse/) |
 | State | Georgia Orchard | [`georgia-orchard`](states/georgia-orchard/) |
 | State | Louisiana Pelican | [`louisiana-pelican`](states/louisiana-pelican/) |
+| State | Maryland Web Design System | [`maryland-web-design-system`](states/maryland-web-design-system/) |
+| State | Massachusetts Design System | [`massachusetts-design-system`](states/massachusetts-design-system/) |
 | State | Michigan Digital Guidelines | [`michigan-digital-guidelines`](states/michigan-digital-guidelines/) |
+| State | Missouri.gov v5 | [`missouri-gov-design-system`](states/missouri-gov-design-system/) |
+| State | Montana.gov Template | [`montana-gov-template`](states/montana-gov-template/) |
 | State | New Jersey Grove/NJWDS | [`new-jersey-web-design-system`](states/new-jersey-web-design-system/) |
 | State | New York State Design System | [`new-york-state-design-system`](states/new-york-state-design-system/) |
+| State | Pennsylvania Keystone | [`pennsylvania-keystone`](states/pennsylvania-keystone/) |
+| State | Rhode Island eCMS/Quahog | [`rhode-island-pattern-library`](states/rhode-island-pattern-library/) |
+| State | Texas Design System | [`texas-design-system`](states/texas-design-system/) |
 | State | Utah Design System | [`utah-design-system`](states/utah-design-system/) |
+| State | Virginia Web Standards | [`virginia-web-standards`](states/virginia-web-standards/) |
 
-"Ready" does not mean risk-free. Georgia's package ships compiled assets without a public source repository, and every consuming service still needs accessibility and product testing.
-
-## Conditional systems
-
-| Level | System | Skill | Adoption gate |
-|---|---|---|---|
-| Federal | USWDS Elements | [`uswds-elements`](federal/uswds-elements/) | Alpha; component maturity varies |
-| Federal | CFPB Design System | [`cfpb-design-system`](federal/cfpb-design-system/) | Upstream work-in-progress; interfaces will change |
-| Federal | GSA TTS A U.S. Design System | [`gsa-usds`](federal/gsa-usds/) | Git-installed React package |
-| Federal | SAM Design System | [`sam-design-system`](federal/sam-design-system/) | Product-specific Angular/MVP |
-| Federal | FEC Pattern Library | [`fec-pattern-library`](federal/fec-pattern-library/) | Coupled to FEC CMS |
-| Federal | NASA Horizon | [`nasa-horizon-design-system`](federal/nasa-horizon-design-system/) | NASA-only, pre-1.0 |
-| Federal | NASA JPL Stellar | [`jpl-stellar-design-system`](federal/jpl-stellar-design-system/) | Mission-operations and framework limits |
-| Federal | CDC DIBBs | [`cdc-dibbs-design-system`](federal/cdc-dibbs-design-system/) | Product source, no package |
-| Federal | CBP Design System | [`cbp-design-system`](federal/cbp-design-system/) | Beta |
-| Federal | IRS Web Design System | [`irs-web-design-system`](federal/irs-web-design-system/) | Limited public source |
-| Federal | USDA FPAC/FSA | [`usda-fpac-design-system`](federal/usda-fpac-design-system/) | Older product-specific implementation |
-| State | Alaska Look and Feel | [`alaska-look-and-feel`](states/alaska-look-and-feel/) | Hosted assets; official scope excludes apps |
-| State | Delaware Lighthouse | [`delaware-lighthouse`](states/delaware-lighthouse/) | Versioned hosted CDN and copy-ready HTML/WordPress, no package |
-| State | Maryland Web Design System | [`maryland-web-design-system`](states/maryland-web-design-system/) | Pre-1.0 alpha; under development |
-| State | Massachusetts Design System | [`massachusetts-design-system`](states/massachusetts-design-system/) | Foundations released; components incomplete |
-| State | Missouri.gov v5 | [`missouri-gov-design-system`](states/missouri-gov-design-system/) | Hosted customized Bootstrap assets |
-| State | Montana.gov Template | [`montana-gov-template`](states/montana-gov-template/) | Hosted template service |
-| State | Pennsylvania Keystone | [`pennsylvania-keystone`](states/pennsylvania-keystone/) | Public code examples, no package/source |
-| State | Rhode Island eCMS/Quahog | [`rhode-island-pattern-library`](states/rhode-island-pattern-library/) | Maintenance status needs confirmation |
-| State | Texas Design System | [`texas-design-system`](states/texas-design-system/) | One-time v1.0 reference delivery; agency owns maintenance |
-| State | Virginia Web Standards | [`virginia-web-standards`](states/virginia-web-standards/) | Branding bar only; broader system unreleased |
+Each skill records the system's current published release, delivery method, and license status from official sources. Adopting any of them still requires accessibility and product testing in the consuming service.
 
 ## Complete jurisdiction routing
 
@@ -114,7 +108,7 @@ federal/ or states/
         └── evals.json
 ```
 
-The source ledger isolates changing versions, release states, URLs, and license notes from the concise runtime instructions. Conditional skills place their adoption gate directly in `SKILL.md`.
+The source ledger isolates changing versions, release details, URLs, and license notes from the concise runtime instructions. `SKILL.md` states the system's scope, delivery method, and current release inline.
 
 ## Validate
 

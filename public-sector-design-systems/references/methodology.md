@@ -1,9 +1,8 @@
 # Classification method
 
-The catalog uses four implementation outcomes:
+The catalog uses three implementation outcomes:
 
-- **Ready:** current public package, source, or complete downloadable implementation suitable for ordinary adoption.
-- **Conditional:** public implementation exists, but it is pre-release, product-specific, hosted-only, incomplete, or has a material maintenance limitation.
+- **Skill available:** a public official implementation exists — package, source, hosted assets, or a complete downloadable distribution — and an implementation skill documents it, including its current release, delivery method, and any product or framework scope.
 - **Guidance only:** official rules or managed-platform documentation are public, but no portable implementation was verified.
 - **No implementation skill:** only internal/legacy evidence exists, or no qualifying official system was found.
 

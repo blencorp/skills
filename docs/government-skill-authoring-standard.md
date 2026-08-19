@@ -71,13 +71,12 @@ Do not use a third-party catalog as authority. Do not infer statewide scope from
 
 Put changing versions and dates in `references/sources.md`, not the discovery description. Recheck them before dependency upgrades.
 
-## Implementation classifications
+## Implementation outcomes
 
-- **Ready:** normal adoption is supported by a current public implementation.
-- **Conditional:** usable public implementation exists, but adoption needs a beta, pre-1.0, product-scope, hosted-delivery, completeness, or maintenance gate.
+- **Implementation skill:** a public official implementation exists and can be documented truthfully.
 - **Router-only:** public guidance or evidence is insufficient to create a truthful implementation skill.
 
-Conditional skills must state the adoption gate near the top and specify a stable routing or stopping condition.
+Every implementation skill must state the system's scope, delivery method, and current published release in `SKILL.md`, and record exact versions, provenance, and license in `references/sources.md`. State what upstream says about its own release — alpha, beta, pre-1.0, in progress — as fact, without ranking systems against each other. Specify a routing or stopping condition for requests the system does not cover.
 
 ## Writing rules
 
