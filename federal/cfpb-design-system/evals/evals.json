@@ -1,0 +1,32 @@
+{
+  "skill": "cfpb-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Create a CFPB React complaint-status page with official components and styles.",
+      "expects": [
+        "Uses the official delivery path",
+        "States or applies the adoption gate (work-in-progress upstream, pinned versions)",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "The React buttons render unstyled after installing only @cfpb/design-system-react.",
+      "expects": [
+        "States that styles load separately — importing the React components alone does not apply CFPB styling",
+        "Applies one documented styling pattern (the package's index.css for greenfield apps, or the documented companion stylesheet when the app compiles core styles)",
+        "Does not load overlapping full stylesheets"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add a multi-step chat widget using official CFPB Design System components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

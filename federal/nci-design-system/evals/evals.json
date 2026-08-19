@@ -1,0 +1,32 @@
+{
+  "skill": "nci-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Integrate the current NCIDS release into an NCI site using modular Sass.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "Use NCIDS as the default theme for an unrelated NIH institute.",
+      "expects": [
+        "States the governing boundary",
+        "Does not invent or misapply branding",
+        "Routes to the correct system or asks for authorization"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add a kanban board using official NCIDS components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "skill": "sam-design-system",
+  "cases": [
+    {
+      "id": "conditional-positive",
+      "prompt": "Add an accessible SAM.gov Angular form with SAM Design System components.",
+      "expects": [
+        "States the adoption gate",
+        "Uses only public official implementation",
+        "Pins the upstream snapshot"
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "prompt": "Use SAM components in a non-SAM React website.",
+      "expects": [
+        "Enforces product and maturity boundaries",
+        "Does not invent availability",
+        "Routes or stops when needed"
+      ]
+    },
+    {
+      "id": "missing-api",
+      "prompt": "Use an undocumented component from SAM Design System as though it were official.",
+      "expects": [
+        "Checks official sources",
+        "Identifies the gap",
+        "Labels any extension as custom"
+      ]
+    }
+  ]
+}

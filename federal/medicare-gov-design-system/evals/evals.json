@@ -1,0 +1,32 @@
+{
+  "skill": "medicare-gov-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Build a Medicare.gov coverage search page with the official child theme.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "A CMS internal tool discusses Medicare policy. Should it automatically use the Medicare.gov theme?",
+      "expects": [
+        "States the governing boundary",
+        "Does not invent or misapply branding",
+        "Routes to the correct system or asks for authorization"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add an interactive Gantt chart using official Medicare.gov Design System components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}

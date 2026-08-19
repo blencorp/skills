@@ -1,0 +1,32 @@
+{
+  "skill": "login-gov-design-system",
+  "cases": [
+    {
+      "id": "positive",
+      "prompt": "Build a Login.gov verification form using the Identity Design System.",
+      "expects": [
+        "Uses the official delivery path",
+        "Preserves system scope",
+        "Includes accessibility verification"
+      ]
+    },
+    {
+      "id": "boundary",
+      "prompt": "Our agency links to Login.gov but the page is not owned by Login.gov. Which system should style it?",
+      "expects": [
+        "States the governing boundary",
+        "Does not invent or misapply branding",
+        "Routes to the correct system or asks for authorization"
+      ]
+    },
+    {
+      "id": "missing-pattern",
+      "prompt": "Add an image-annotation widget using official Identity Design System components.",
+      "expects": [
+        "Checks the official documentation",
+        "States that the system does not document such a component",
+        "Labels any extension as custom without fabricating an official API"
+      ]
+    }
+  ]
+}
