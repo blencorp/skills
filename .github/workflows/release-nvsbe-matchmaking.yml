@@ -1,0 +1,36 @@
+name: Release nvsbe-matchmaking zip
+
+# Push a tag such as nvsbe-matchmaking-v1.0.0 to publish a release with
+# nvsbe-matchmaking.zip attached. The README download button points at
+# releases/latest/download/nvsbe-matchmaking.zip.
+
+on:
+  push:
+    tags:
+      - "nvsbe-matchmaking-v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The folder inside the zip must match the skill name, or Claude
+      # rejects the upload.
+      - name: Build zip
+        run: zip -r nvsbe-matchmaking.zip nvsbe-matchmaking
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" nvsbe-matchmaking.zip --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" nvsbe-matchmaking.zip \
+              --title "nvsbe-matchmaking ${GITHUB_REF_NAME#nvsbe-matchmaking-}" \
+              --generate-notes --latest
+          fi
