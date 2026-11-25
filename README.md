@@ -11,7 +11,7 @@ The collection contains:
 
 The skills use the common `SKILL.md` format supported by OpenAI and Anthropic. They are designed to fail closed: when official public material does not define a component, token, package, or implementation, the skill says so instead of inventing one.
 
-Federal implementation skills live in [`federal/`](federal/) and state implementation skills live in [`states/`](states/). The existing [`uswds`](uswds/), [`usmds`](usmds/), and [`gsa-mas`](gsa-mas/) directories remain at the repository root, along with the cross-jurisdiction [`public-sector-design-systems`](public-sector-design-systems/) router.
+Federal implementation skills live in [`federal/`](federal/) and state implementation skills live in [`states/`](states/). The existing [`uswds`](uswds/), [`usmds`](usmds/), [`gsa-mas`](gsa-mas/), and [`nvsbe-matchmaking`](nvsbe-matchmaking/) directories remain at the repository root, along with the cross-jurisdiction [`public-sector-design-systems`](public-sector-design-systems/) router.
 
 ## Install
 
@@ -130,6 +130,7 @@ npx skills add . --list --full-depth
 
 - [`usmds`](usmds/) — BLEN's U.S. Mobile Design System for React Native. It is not an official federal or state system and is not counted above.
 - [`gsa-mas`](gsa-mas/) — GSA Multiple Award Schedule application assistant.
+- [`nvsbe-matchmaking`](nvsbe-matchmaking/) — plans and books VA NVSBE matchmaking sessions on the My Business Matches portal.
 
 ## License
 
